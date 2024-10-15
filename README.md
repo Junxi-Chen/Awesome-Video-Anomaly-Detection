@@ -168,7 +168,7 @@ arXiv 24' [[paper](https://arxiv.org/abs/2405.19387)]
 ## Datasets
 | Dataset    | Download Links | Features | Frame-level Annotation | Publication |
 |:-----------|:------------|:------------|:------------|:------------|
-| [`ShanghaiTech Campus`](https://svip-lab.github.io/dataset/campus_dataset.html)      | [`BaiduYun`]()        |[`I3D RGB`](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |CVPR 18'       |
+| [`ShanghaiTech Campus`](https://svip-lab.github.io/dataset/campus_dataset.html)      | [`BaiduYun`](https://pan.baidu.com/s/1W3_tkiiNHKd_4uQ2tgBq8g?pwd=3mh5)        |[`I3D RGB`](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |CVPR 18'       |
 | [`UCF-Crime`](https://www.crcv.ucf.edu/projects/real-world/)      | [`Dropbox`](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [`I3D RGB`](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [`Link`](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | CVPR 18'       |
 | [`XD-Violence`](https://roc-ng.github.io/XD-Violence/) | [`OneDrive`](https://roc-ng.github.io/XD-Violence/) | [`I3D RGB & VGGish`](https://roc-ng.github.io/XD-Violence/)| - | ECCV 20'|
 
