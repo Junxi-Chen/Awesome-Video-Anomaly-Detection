@@ -21,12 +21,18 @@ If you find this repository helpful, feel free to star or share it 😆! If you 
 - [Related Repositories](#related-repositories)
 
 ## Recent Updates
-Last Update: October 15, 2024
+Last Update: October 21, 2024
 - ACM MM 24'
 - ECCV 24'
 - CVPR 24'
 
 ## New Setting Papers
+**Toward Video Anomaly Retrieval From Video Anomaly Detection: New Benchmarks and Model**\
+*Peng Wu, Jing Liu, Xiangteng He, Yuxin Peng, Peng Wang, Yanning Zhang* \
+![I3D](https://img.shields.io/badge/I3D-35BF5C)
+![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF)\
+TIP 24' [[paper](https://ieeexplore.ieee.org/document/10471334/authors#authors)][[dataset](https://github.com/Roc-Ng/VAR)]
+
 **Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models** \
 *Yuchen Yang, Kwonjoon Lee, Behzad Dariush, Yinzhi Cao, Shao-Yuan Lo* \
 ![LLM](https://img.shields.io/badge/LLM-FFA500)\
@@ -120,6 +126,14 @@ ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00941
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04450.pdf)][[code](https://github.com/benedictstar/Joint-VAD)]
 
+**Scene-Dependent Prediction in Latent Space for Video Anomaly Detection and Anticipation** \
+*Congqi Cao, Hanwen Zhang, Yue Lu, Peng Wang, Yanning Zhang* \
+T-PAMI 24'[[paper](https://ieeexplore.ieee.org/abstract/document/10681297)][[project](https://campusvaa.github.io)][[code](https://github.com/zugexiaodui/campus_vad_code)][[dataset](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link)]
+
+**DoTA: Unsupervised Detection of Traffic Anomaly in Driving Videos** \
+*Yu Yao, Xizi Wang, Mingze Xu, Zelin Pu, Yuchen Wang, Ella Atkins, Senior Member, David J. Crandall* \
+T-PAMI 23' [[paper](https://ieeexplore.ieee.org/document/9712446)][[code](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)][[dataset](https://drive.google.com/drive/folders/1_WzhwZC2NIpzZIpX7YCvapq66rtBc67n)]
+
 **Self-Distilled Masked Auto-Encoders are Efficient Video Anomaly Detectors** \
 *Nicolae-C&#259;t&#259;lin Ristea, Florinel-Alin Croitoru, Radu Tudor Ionescu, Marius Popescu, Fahad Shahbaz Khan, Mubarak Shah* \
 CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ristea_Self-Distilled_Masked_Auto-Encoders_are_Efficient_Video_Anomaly_Detectors_CVPR_2024_paper.pdf)][[code](https://github.com/ristea/aed-mae/tree/main)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Ristea_Self-Distilled_Masked_Auto-Encoders_CVPR_2024_supplemental.pdf)]
@@ -164,6 +178,14 @@ arXiv 23' [[paper](https://arxiv.org/pdf/2302.04549)][[repo](https://github.com/
 SAJID 
 *Moshira Abdalla, Sajid Javed, Muaz Al Radi, Anwaar Ulhaq, Naoufel Werghi* \
 arXiv 24' [[paper](https://arxiv.org/abs/2405.19387)]
+
+**A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection** \
+*Ming Jin, Huan Yee Koh, Qingsong Wen, Daniele Zambon, Cesare Alippi, Geoffrey I. Webb, Irwin King, Shirui Pan* \
+T-PAMI 24' [[paper](https://github.com/KimMeen/Awesome-GNN4TS)][[repo](https://github.com/KimMeen/Awesome-GNN4TS)]
+
+**Graph-Time Convolutional Neural Networks: Architecture and Theoretical Analysis** \
+*Mohammad Sabbaqi and Elvin Isufi* \
+T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 ## Datasets
 | Dataset    | Download Links | Features | Frame-level Annotation | Publication |
