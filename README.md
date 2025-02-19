@@ -7,7 +7,6 @@ Video anomaly detection (VAD) aims to identify anomalous frames within given vid
 If you find this repository helpful, feel free to star or share it 😆! If you spot any errors, notice omissions or have any suggestions, please reach out via GitHub [issues](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues), [pull requests](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls) or [email]((mailto:chenjunxi22@mails.ucas.ac.cn)).
 
 
-
 ## Contents
 - [Recent Updates](#recent-updates)
 - [New Setting Papers](#new-setting-papers)
@@ -20,11 +19,13 @@ If you find this repository helpful, feel free to star or share it 😆! If you 
 - [Utilities](#utilities)
 - [Related Repositories](#related-repositories)
 
+
 ## Recent Updates
 Last Update: October 21, 2024
 - ACM MM 24'
 - ECCV 24'
 - CVPR 24'
+
 
 ## New Setting Papers
 **Toward Video Anomaly Retrieval From Video Anomaly Detection: New Benchmarks and Model**\
@@ -69,38 +70,36 @@ ACM MM 24' [[paper](https://openreview.net/pdf?id=TAVtkpjS9P)][[code](https://gi
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)\
 ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04459.pdf)]
 
-**Cross-Modal Fusion and Attention Mechanism for Weakly Supervised Video Anomaly Detection** \
+**Cross-Modal Fusion and Attention Mechanism for Weakly Supervised Video Anomaly Detection** <a id='HLGAtt'></a> \
 *Ayush Ghadiya, Purbayan Kar, Vishal Chudasama, Pankaj Wasnik* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF)\
 CVPR 24' Workshop [[paper](https://openaccess.thecvf.com/content/CVPR2024W/MULA/papers/Ghadiya_Cross-Modal_Fusion_and_Attention_Mechanism_for_Weakly_Supervised_Video_Anomaly_CVPRW_2024_paper.pdf)] 
 
-**Weakly Supervised Video Anomaly Detection and Localization with Spatio-Temporal Prompts** \
+**Weakly Supervised Video Anomaly Detection and Localization with Spatio-Temporal Prompts** <a id='STPrompt'></a> \
 *Peng Wu, Xuerong Zhou, Guansong Pang, Zhiwei Yang, Qingsen Yan, Peng Wang, Yanning Zhang* \
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
 ACM MM 24' [[paper](https://arxiv.org/pdf/2408.05905)][[OpenReview](https://openreview.net/forum?id=2es1ojI14x&referrer=%5Bthe%20profile%20of%20Peng%20Wu%5D(%2Fprofile%3Fid%3D~Peng_Wu2))]
 
-**Exploiting Completeness and Uncertainty of Pseudo Labels  for Weakly Supervised Video Anomaly Detection** \
+**Exploiting Completeness and Uncertainty of Pseudo Labels  for Weakly Supervised Video Anomaly Detection** <a id='Zhang-CVPR23'></a>\
 *Chen Zhang, Guorong Li, Yuankai Qi, Shuhui Wang, Laiyun Qing, Qingming Huang, Ming-Hsuan Yang* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 CVPR 23' [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Exploiting_Completeness_and_Uncertainty_of_Pseudo_Labels_for_Weakly_Supervised_CVPR_2023_paper.pdf)][[code](https://github.com/ArielZc/CU-Net)][[supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Zhang_Exploiting_Completeness_and_CVPR_2023_supplemental.pdf)]
 
-**Look Around for Anomalies: Weakly-supervised Anomaly Detection via Context-Motion Relational Learning** \
+**Look Around for Anomalies: Weakly-supervised Anomaly Detection via Context-Motion Relational Learning** <a id='CoMo'></a>\
 *MyeongAh Cho, Minjung Kim, Sangwon Hwang, Chaewon Park, Kyungjae Lee, Sangyoun Lee* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 CVPR 23' [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Look_Around_for_Anomalies_Weakly-Supervised_Anomaly_Detection_via_Context-Motion_Relational_CVPR_2023_paper.pdf)][[supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Cho_Look_Around_for_CVPR_2023_supplemental.pdf)]
 
-
 ### Prompt Involved Papers
-**Vadclip: Adapting vision-language models for weakly supervised video anomaly detection** \
+**Vadclip: Adapting vision-language models for weakly supervised video anomaly detection** <a id='Vadclip'></a> \
 *Peng Wu, Xuerong Zhou, Guansong Pang, Lingru Zhou, Qingsen Yan, Peng Wang, Yanning Zhang* \
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
 AAAI 24' [[paper](https://ojs.aaai.org/index.php/AAAI/article/download/28423/28826)][[code](https://github.com/nwpu-zxr/VadCLIP)] 
 
-**Prompt-Enhanced Multiple Instance Learning for Weakly Supervised Video Anomaly Detection** 
- \
+**Prompt-Enhanced Multiple Instance Learning for Weakly Supervised Video Anomaly Detection** <a id='PE-MIL'></a> \
 *Junxi Chen, Liang Li , Li Su , Zheng-Jun Zha, Qingming Huang* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)
@@ -116,7 +115,7 @@ CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Tex
 
 ## Semi-supervised VAD Papers
 
-**Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection** \
+**Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection** <a id="LANP"></a> \
 *Haoyue Shi, Le Wang, Sanping Zhou, Gang Hua, Wei Tang* \
 ![ResNext](https://img.shields.io/badge/ResNext-05CC47)\
 ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00941.pdf)] 
@@ -126,7 +125,7 @@ ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00941
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04450.pdf)][[code](https://github.com/benedictstar/Joint-VAD)]
 
-**Scene-Dependent Prediction in Latent Space for Video Anomaly Detection and Anticipation** \
+**Scene-Dependent Prediction in Latent Space for Video Anomaly Detection and Anticipation** <a id="SSAE"></a> \
 *Congqi Cao, Hanwen Zhang, Yue Lu, Peng Wang, Yanning Zhang* \
 T-PAMI 24'[[paper](https://ieeexplore.ieee.org/abstract/document/10681297)][[project](https://campusvaa.github.io)][[code](https://github.com/zugexiaodui/campus_vad_code)][[dataset](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link)]
 
@@ -134,29 +133,30 @@ T-PAMI 24'[[paper](https://ieeexplore.ieee.org/abstract/document/10681297)][[pro
 *Yu Yao, Xizi Wang, Mingze Xu, Zelin Pu, Yuchen Wang, Ella Atkins, Senior Member, David J. Crandall* \
 T-PAMI 23' [[paper](https://ieeexplore.ieee.org/document/9712446)][[code](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)][[dataset](https://drive.google.com/drive/folders/1_WzhwZC2NIpzZIpX7YCvapq66rtBc67n)]
 
-**Self-Distilled Masked Auto-Encoders are Efficient Video Anomaly Detectors** \
+**Self-Distilled Masked Auto-Encoders are Efficient Video Anomaly Detectors** <a id="AED-MAE"></a> \
 *Nicolae-C&#259;t&#259;lin Ristea, Florinel-Alin Croitoru, Radu Tudor Ionescu, Marius Popescu, Fahad Shahbaz Khan, Mubarak Shah* \
 CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ristea_Self-Distilled_Masked_Auto-Encoders_are_Efficient_Video_Anomaly_Detectors_CVPR_2024_paper.pdf)][[code](https://github.com/ristea/aed-mae/tree/main)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Ristea_Self-Distilled_Masked_Auto-Encoders_CVPR_2024_supplemental.pdf)]
 
-**Multi-Scale Video Anomaly Detection by Multi-Grained Spatio-Temporal  Representation Learning** \
-![I3D](https://img.shields.io/badge/I3D-35BF5C)\
+**Multi-Scale Video Anomaly Detection by Multi-Grained Spatio-Temporal  Representation Learning** <a id="Zhang-CVPR24"></a> \
 *Menghao Zhang, Jingyu Wang, Qi Qi, Haifeng Sun, Zirui Zhuang, Pengfei Ren, Ruilong Ma, Jianxin Liao* \
+![I3D](https://img.shields.io/badge/I3D-35BF5C) \
 CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Multi-Scale_Video_Anomaly_Detection_by_Multi-Grained_Spatio-Temporal_Representation_Learning_CVPR_2024_paper.pdf)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Zhang_Multi-Scale_Video_Anomaly_CVPR_2024_supplemental.pdf)]
 
-**MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for  Video Anomaly Detection** \
+**MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for  Video Anomaly Detection** <a id="MULDE"></a> \
 *Jakub Micorek Horst Possegger Dominik Narnhofer Horst Bischof Mateusz Kozi&#769;nski* \
+![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff) ![Hiera-L](https://img.shields.io/badge/Hiera--L-25D366) \
 CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Micorek_MULDE_Multiscale_Log-Density_Estimation_via_Denoising_Score_Matching_for_Video_CVPR_2024_paper.pdf)][[code](https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Micorek_MULDE_Multiscale_Log-Density_CVPR_2024_supplemental.pdf)]
 
 **Collaborative Learning of Anomalies with Privacy (CLAP) for Unsupervised Video Anomaly Detection: A New Baseline** \
 *Anas Al-lahham, Muhammad Zaigham Zaheer, Nubrek Tastan, Karthik Nandakumar* \
 CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Al-lahham_Collaborative_Learning_of_Anomalies_with_Privacy_CLAP_for_Unsupervised_Video_CVPR_2024_paper.pdf)][[code](https://github.com/AnasEmad11/CLAP)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Al-lahham_Collaborative_Learning_of_CVPR_2024_supplemental.pdf)]
 
-**A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection** \
+**A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection** <a id="MGENet"></a>  \
 *Guoqing Yang, Zhiming Luo, Jianzhe Gao, Yingxin Lai, Kun Yang, Yifan He, Shaozi Li*\
 ![SwinTrans](https://img.shields.io/badge/SwinTrans-0DBD8B)\
 ACM MM 24' [[paper](https://openreview.net/pdf?id=g7zkmttvJp)][[code](https://github.com/molu-ggg/GENet)][[OpenReview](https://openreview.net/forum?id=g7zkmttvJp)]
 
-**Video Anomaly Detection via Progressive Learning of Multiple Proxy Tasks** \
+**Video Anomaly Detection via Progressive Learning of Multiple Proxy Tasks** <a id="Zhang-MM24"></a> \
 *Menghao Zhang, Jingyu Wang, Qi Qi, Pengfei Ren, Haifeng Sun, Zirui Zhuang, Huazheng Wang, Lei Zhang, Jianxin Liao* \
 ACM MM 24' [[paper](https://openreview.net/pdf?id=WsNFULCsyj)][[OpenReview](https://openreview.net/forum?id=WsNFULCsyj&referrer=%5Bthe%20profile%20of%20Lei%20Zhang%5D(%2Fprofile%3Fid%3D~Lei_Zhang67))]
 
@@ -187,6 +187,308 @@ T-PAMI 24' [[paper](https://github.com/KimMeen/Awesome-GNN4TS)][[repo](https://g
 *Mohammad Sabbaqi and Elvin Isufi* \
 T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
+
+## Benchmarks
+<table>
+  <style>
+    td {
+        text-align: center;
+    }
+  </style>
+  <tr>
+    <th></th>
+     <th>Method</th>
+     <th>Publication</th>
+     <th>Visual Features</th>
+     <th>STC (AUC)</th>
+     <th>UCF (AUC)</th>
+     <th>XDV (AP)</th>
+     <th>Ave (AUC)</th>
+     <th>Cor (AUC)</th>
+     <th>UBnormal (AUC)</th>
+     <th>Ped2 (AUC)</th>
+     <th>Campus (AUC)</th>
+     <th>NWPU (AUC)</th>
+     <th>NPDI (AUC)</th>
+     <th>TAD (AUC)</th>
+     <th>Audio Features</th>
+     <th>Text Prompt</th>
+     <th>LLM Involved</th>
+     <th>Data Augumentation</th>
+  </tr>
+  <tr>
+    <td rowspan="8">Semi-supervised</td>
+    <td rowspan="2"><a href="#LANP">LANP</a></td>
+    <td rowspan="2">ECCV 24'</td>
+    <td>I3D</td>
+    <td>88.32</td>
+    <td>80.02</td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+    <td rowspan="2"> - </td>
+  </tr>
+  <tr>
+    <td>ResNext</td>
+    <td>86.46</td>
+    <td>76.64</td>
+  </tr>
+  <tr>
+    <td><a href="#SSAE">SSAE</a></td>
+    <td>T-PAMI 24'</td>
+    <td> - </td>
+    <td>80.5</td>
+    <td> - </td>
+    <td> - </td>
+    <td>90.2</td>
+    <td>75.8</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td>75.6</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href="#AED-MAE">AED-MAE</a></td>
+    <td>CVPR 24'</td>
+    <td> - </td>
+    <td>79.1</td>
+    <td> - </td>
+    <td> - </td>
+    <td>91.3</td>
+    <td> - </td>
+    <td>58.5</td>
+    <td>95.4</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href="#Zhang-CVPR24">Zhang et al.</a></td>
+    <td>CVPR 24'</td>
+    <td>I3D</td>
+    <td> 87.5 </td>
+    <td> 80.6 </td>
+    <td> - </td>
+    <td> 94.3 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 70.1 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#MULDE'>MULDE</a></td>
+    <td>CVPR 24'</td>
+    <td>CLIP+Hiera</td>
+    <td>81.3</td>
+    <td>78.5</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td>72.8</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#MGENet'>MGEnet</a></td>
+    <td>MM 24'</td>
+    <td>Video Swin</td>
+    <td>86.9</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 74.3 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#Zhang-MM24'>Zhang et al.</a></td>
+    <td>MM 24'</td>
+    <td> - </td>
+    <td>88.6</td>
+    <td>83.2</td>
+    <td> - </td>
+    <td> 94.5 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <th colspan="19"></th>
+  </tr>
+  <tr>
+    <td rowspan="8">Weakly-supervised</td>
+    <td><a href='#HLGAtt'>HLGAtt</a></td>
+    <td>CVPR 24' Workshop</td>
+    <td>I3D</td>
+    <td> - </td>
+    <td> - </td>
+    <td> 86.34 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 99.45 </td>
+    <td> - </td>
+    <td> VGGish </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#STPrompt'>STPrompt</a></td>
+    <td>MM 24'</td>
+    <td>CLIP</td>
+    <td> 97.81 </td>
+    <td> 88.08 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 63.98 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> &#10004; </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#Zhang-CVPR23'>Zhang et al.</a></td>
+    <td>CVPR 23'</td>
+    <td>I3D</td>
+    <td> - </td>
+    <td> 86.22 </td>
+    <td> 81.43 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 91.66 </td>
+    <td> VGGish </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#CoMo'>CoMo</a></td>
+    <td>CVPR 23'</td>
+    <td>I3D</td>
+    <td>97.6</td>
+    <td>86.1</td>
+    <td>81.3</td>
+    <td>89.8</td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#Vadclip'>Vadclip</a></td>
+    <td>AAAI 24'</td>
+    <td>CLIP</td>
+    <td> - </td>
+    <td> 88.02 </td>
+    <td> 84.51 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> &#10004; </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td><a href='#PE-MIL'>PE-MIL</a></td>
+    <td>CVPR 24'</td>
+    <td>I3D</td>
+    <td> 98.35 </td>
+    <td> 86.83 </td>
+    <td> 88.21 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> VGGish </td>
+    <td> &#10004; </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+</table>
+
+
 ## Datasets
 | Dataset    | Download Links | Features | Frame-level Annotation | Publication |
 |:-----------|:------------|:------------|:------------|:------------|
@@ -194,8 +496,10 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 | [`UCF-Crime`](https://www.crcv.ucf.edu/projects/real-world/)      | [`Dropbox`](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [`I3D RGB`](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [`Link`](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | CVPR 18'       |
 | [`XD-Violence`](https://roc-ng.github.io/XD-Violence/) | [`OneDrive`](https://roc-ng.github.io/XD-Violence/) | [`I3D RGB & VGGish`](https://roc-ng.github.io/XD-Violence/)| - | ECCV 20'|
 
+
 ## Utilities
 [Video & Audio Feature Extraction] [`video_features`](https://github.com/v-iashin/video_features): it allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
+
 
 ## Related Repositories
 [awesome-video-anomaly-detection](https://github.com/fjchange/awesome-video-anomaly-detection): an awesome collection of papers and codes for video anomaly detection, updated to CVPR 22'.
