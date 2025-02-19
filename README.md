@@ -190,11 +190,6 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 ## Benchmarks
 <table>
-  <style>
-    td {
-        text-align: center;
-    }
-  </style>
   <tr>
     <th></th>
      <th>Method</th>
