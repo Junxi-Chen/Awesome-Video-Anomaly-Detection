@@ -21,10 +21,10 @@ If you find this repository helpful, feel free to star or share it 😆! If you 
 
 
 ## Recent Updates
-Last Update: October 21, 2024
+Last Update: February, 2025
+- ICLR 25'
 - ACM MM 24'
 - ECCV 24'
-- CVPR 24'
 
 
 ## New Setting Papers
@@ -114,6 +114,10 @@ CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Tex
 
 
 ## Semi-supervised VAD Papers
+
+**Local Patterns Generalize Better for Novel Anomalies** \
+*Yalong Jiang* \
+ICLR 25' [[paper](https://openreview.net/pdf?id=4ua4wyAQLm)][[code](https://github.com/AllenYLJiang/Local-Patterns-Generalize-Better/)][[OpenReview](https://openreview.net/forum?id=4ua4wyAQLm)]
 
 **Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection** <a id="LANP"></a> \
 *Haoyue Shi, Le Wang, Sanping Zhou, Gang Hua, Wei Tang* \
