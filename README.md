@@ -99,8 +99,8 @@ CVPR 23' [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Look
 
 **Graph Convolutional Label Noise Cleaner:
 Train a Plug-and-play Action Classifier for Anomaly Detection**\
-*Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H. Li, Ge L* \
-CVPR 19'[[paper]]
+*Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H. Li, Ge L* <a id='Plug-and-play'></a>\
+CVPR 19'[[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Graph_Convolutional_Label_Noise_Cleaner_Train_a_Plug-And-Play_Action_Classifier_CVPR_2019_paper.pdf)
 
 ### Prompt Involved Papers
 **Vadclip: Adapting vision-language models for weakly supervised video anomaly detection** <a id='Vadclip'></a> \
@@ -603,8 +603,8 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
 </table>
 <div style="font-size: smaller; margin-top: 1em;">
-    * : ShanghaiTech was initially proposed as a semi-supervised VAD dataset, and [] later introduced its weakly supervised split.<br>
-    †: ShanghaiTech数据集的弱监督设置使用了不同的训练集划分
+    * : ShanghaiTech was initially proposed as a semi-supervised VAD dataset, and <a href='#Plug-and-play'>Zhong etal</a>. later introduced its weakly supervised split.<br>
+    †: Derived from <a href='#MULDE'>MULDE</a>.
 </div>
 
 ## Utilities
