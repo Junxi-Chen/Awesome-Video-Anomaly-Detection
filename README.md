@@ -4,24 +4,29 @@
 
 Video anomaly detection (VAD) aims to identify anomalous frames within given videos, which servers a vital function in critical areas, e.g., public security, media content monitoring and industrial manufacture. This repository collects latest research papers, code, datasets, utilities and related resources for VAD.
 
-If you find this repository helpful, feel free to star or share it 😆! If you spot any errors, notice omissions or have any suggestions, please reach out via GitHub [issues](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues), [pull requests](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls) or [email]((mailto:chenjunxi22@mails.ucas.ac.cn)).
+If you find this repository helpful, feel free to star🌟 or share it😀! If you spot any errors, notice omissions or have any suggestions, please reach out via GitHub [issues](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues), [pull requests](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls) or [email]((mailto:chenjunxi22@mails.ucas.ac.cn)).
 
 
 ## Contents
-- [Recent Updates](#recent-updates)
-- [New Setting Papers](#new-setting-papers)
-- [Weakly-supervised VAD Papers](#weakly-supervised-vad-papers)
-  - [Prompt Involved Papers](#prompt-involved-papers)
-- [Semi-supervised VAD Papers](#semi-supervised-vad-papers)
-- [Fully-supervised VAD Papers](#fully-supervised-vad-papers)
-- [Surveys](#surveys)
-- [Datasets](#datasets)
-- [Utilities](#utilities)
-- [Related Repositories](#related-repositories)
+- [Awesome Video Anomaly Detection](#awesome-video-anomaly-detection)
+  - [Contents](#contents)
+  - [Recent Updates](#recent-updates)
+  - [New Setting Papers](#new-setting-papers)
+  - [Weakly-supervised VAD Papers](#weakly-supervised-vad-papers)
+    - [Prompt Involved Papers](#prompt-involved-papers)
+  - [Semi-supervised VAD Papers](#semi-supervised-vad-papers)
+  - [Fully-supervised VAD Papers](#fully-supervised-vad-papers)
+  - [Surveys](#surveys)
+  - [Benchmarks](#benchmarks)
+  - [Datasets](#datasets)
+    - [Links](#links)
+    - [Statistics](#statistics)
+  - [Utilities](#utilities)
+  - [Related Repositories](#related-repositories)
 
 
 ## Recent Updates
-Last Update: February, 2025
+Last Update: April, 2025
 - ICLR 25'
 - ACM MM 24'
 - ECCV 24'
@@ -87,10 +92,15 @@ ACM MM 24' [[paper](https://arxiv.org/pdf/2408.05905)][[OpenReview](https://open
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 CVPR 23' [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Exploiting_Completeness_and_Uncertainty_of_Pseudo_Labels_for_Weakly_Supervised_CVPR_2023_paper.pdf)][[code](https://github.com/ArielZc/CU-Net)][[supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Zhang_Exploiting_Completeness_and_CVPR_2023_supplemental.pdf)]
 
-**Look Around for Anomalies: Weakly-supervised Anomaly Detection via Context-Motion Relational Learning** <a id='CoMo'></a>\
+**Look Around for Anomalies: Weakly-supervised Anomaly Detection via Context-Motion Relational Learning** <a id='CoMo'></a> \
 *MyeongAh Cho, Minjung Kim, Sangwon Hwang, Chaewon Park, Kyungjae Lee, Sangyoun Lee* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 CVPR 23' [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Look_Around_for_Anomalies_Weakly-Supervised_Anomaly_Detection_via_Context-Motion_Relational_CVPR_2023_paper.pdf)][[supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Cho_Look_Around_for_CVPR_2023_supplemental.pdf)]
+
+**Graph Convolutional Label Noise Cleaner:
+Train a Plug-and-play Action Classifier for Anomaly Detection**\
+*Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H. Li, Ge L* \
+CVPR 19'[[paper]]
 
 ### Prompt Involved Papers
 **Vadclip: Adapting vision-language models for weakly supervised video anomaly detection** <a id='Vadclip'></a> \
@@ -489,12 +499,113 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 
 ## Datasets
-| Dataset    | Download Links | Features | Frame-level Annotation | Publication |
+### Links
+| Dataset | Download Links | Features | Frame-level Annotation | Publication |
 |:-----------|:------------|:------------|:------------|:------------|
 | [`ShanghaiTech Campus`](https://svip-lab.github.io/dataset/campus_dataset.html)      | [`BaiduYun`](https://pan.baidu.com/s/1W3_tkiiNHKd_4uQ2tgBq8g?pwd=3mh5)        |[`I3D RGB`](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |CVPR 18'       |
 | [`UCF-Crime`](https://www.crcv.ucf.edu/projects/real-world/)      | [`Dropbox`](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [`I3D RGB`](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [`Link`](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | CVPR 18'       |
 | [`XD-Violence`](https://roc-ng.github.io/XD-Violence/) | [`OneDrive`](https://roc-ng.github.io/XD-Violence/) | [`I3D RGB & VGGish`](https://roc-ng.github.io/XD-Violence/)| - | ECCV 20'|
 
+### Statistics
+<table border="1">
+    <tr>
+        <th>Dataset</th>
+        <th>Year</th>
+        <th>Modality</th>
+        <th>#Videos</td>
+        <th>Supervision</th>
+        <th>#Training Abnormal Videos</th>
+        <th>#Training Normal Videos</th>
+        <th>#Test Abnormal Videos</th>
+        <th>#Test Normal Videos</th>
+        <th>#Anomaly Types</th>
+    </tr>
+    <tr>
+        <td rowspan="2">ShanghaiTech</td>
+        <td rowspan="2">2018</td>
+        <td rowspan="2">Visual</td>
+        <td rowspan="2">437</td>
+        <td>Semi</td>
+        <td>-</td>
+        <td>330</td>
+        <td>107</td>
+        <td>-</td>
+        <td rowspan="2">13</td>
+    </tr>
+    <tr>
+        <td>Weakly*</td>
+        <td>63</td>
+        <td>175</td>
+        <td>44</td>
+        <td>155</td>
+    </tr>
+    <tr>
+        <td rowspan="2">UCF-Crime</td>
+        <td rowspan="2">2018</td>
+        <td rowspan="2">Visual</td>
+        <td rowspan="2">1900</td>
+        <td>Semi<sup>†</sup></td>
+        <td>-</td>
+        <td>800</td>
+        <td>140</td>
+        <td>150</td>
+        <td rowspan="2">13</td>
+    </tr>
+    <tr>
+        <td>Weakly</td>
+        <td>810</td>
+        <td>800</td>
+        <td>140</td>
+        <td>150</td>
+    </tr>
+    <tr>
+        <td>XD-Violence</td>
+        <td>2020</td>
+        <td>Visual & Audio</td>
+        <td>4754</td>
+        <td>Weakly</td>
+        <td>1905</td>
+        <td>2049</td>
+        <td>500</td>
+        <td>300</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>ECVA</td>
+        <td>2024</td>
+        <td>Visual & Audio & Text</td>
+        <td>2240</td>
+        <td>Semi</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td rowspan="2">MSAD</td>
+        <td rowspan="2">2024</td>
+        <td rowspan="2">Visual</td>
+        <td rowspan="2">720</td>
+        <td>Semi</td>
+        <td>-</td>
+        <td>360</td>
+        <td>240</td>
+        <td>120</td>
+        <td rowspan="2">55</td>
+    </tr>
+    <tr>
+        <td>Weakly</td>
+        <td>120</td>
+        <td>360</td>
+        <td>120</td>
+        <td>120</td>
+    </tr>
+</table>
+<div style="font-size: smaller; margin-top: 1em;">
+    * : ShanghaiTech was initially proposed as a semi-supervised VAD dataset, and [] later introduced its weakly supervised split.<br>
+    †: ShanghaiTech数据集的弱监督设置使用了不同的训练集划分
+</div>
 
 ## Utilities
 [Video & Audio Feature Extraction] [`video_features`](https://github.com/v-iashin/video_features): it allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
