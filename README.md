@@ -31,6 +31,9 @@ Last Update: April, 2025
 - ACM MM 24'
 - ECCV 24'
 
+Papers: \
+<a href='#review-and-dataset'>Review and a new dataset</a> \
+<a href='#benchmark-review'>Benchmark Review</a>
 
 ## New Setting Papers
 **Toward Video Anomaly Retrieval From Video Anomaly Detection: New Benchmarks and Model**\
@@ -100,7 +103,7 @@ CVPR 23' [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Look
 **Graph Convolutional Label Noise Cleaner:
 Train a Plug-and-play Action Classifier for Anomaly Detection**\
 *Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H. Li, Ge L* <a id='Plug-and-play'></a>\
-CVPR 19'[[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Graph_Convolutional_Label_Noise_Cleaner_Train_a_Plug-And-Play_Action_Classifier_CVPR_2019_paper.pdf)
+CVPR 19'[[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Graph_Convolutional_Label_Noise_Cleaner_Train_a_Plug-And-Play_Action_Classifier_CVPR_2019_paper.pdf)]
 
 ### Prompt Involved Papers
 **Vadclip: Adapting vision-language models for weakly supervised video anomaly detection** <a id='Vadclip'></a> \
@@ -184,6 +187,14 @@ ACM MM 19' [[paper](https://dl.acm.org/doi/abs/10.1145/3343031.3350998)][[annota
 arXiv 19' [[paper](https://arxiv.org/pdf/1901.10364)][[project](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=30)][[annotation](https://drive.google.com/drive/folders/1Hu2oke7acBqcKKyUpv5NBmQ2fDiYn87c)]
 
 ## Surveys
+**Advancing Video Anomaly Detection: A Concise Review and a New Dataset** <a id="review-and-dataset"></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+*Liyun Zhu, Lei Wang, Arjun Raj, Tom Gedeon, Chen Chen* \
+NeurIPS 24' [[paper](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf)][[project](https://msad-dataset.github.io)]
+
+**Unveiling the performance of video anomaly detection models — A benchmark-based review** <a id="benchmark-review"></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+*Francisco Caetano, Pedro Carvalho, Jaime S. Cardoso* \
+Intelligent Systems with Applications 23' [[paper](https://www.sciencedirect.com/science/article/pii/S2667305323000613)] 
+
 **Weakly Supervised Anomaly Detection: A Survey** \
 *Minqi Jiang, Chaochuan Hou, Ao Zheng, Xiyang Hu, Songqiao Han, Hailiang Huang, Xiangnan He , Philip S. Yu, Yue Zhao* \
 arXiv 23' [[paper](https://arxiv.org/pdf/2302.04549)][[repo](https://github.com/yzhao062/wsad)]
@@ -603,8 +614,9 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
 </table>
 <div style="font-size: smaller; margin-top: 1em;">
+    # : denotes "number of".<br>
     * : ShanghaiTech was initially proposed as a semi-supervised VAD dataset, and <a href='#Plug-and-play'>Zhong etal</a>. later introduced its weakly supervised split.<br>
-    †: Derived from <a href='#MULDE'>MULDE</a>.
+    †: Derived from <a href='#MULDE'>MULDE.</a>
 </div>
 
 ## Utilities
