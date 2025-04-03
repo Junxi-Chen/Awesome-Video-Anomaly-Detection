@@ -67,13 +67,11 @@ ACM MM 24' [[paper](https://openreview.net/pdf?id=TAVtkpjS9P)][[code](https://gi
 
 ## Weakly-supervised VAD Papers
 1. [CDL] **Cross-Domain Learning for Video Anomaly Detection with Limited Supervision** \
-*Yashika Jain, Ali Dabouei, Min Xu* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)\
 ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04459.pdf)]
 
 1. [HLGAtt] **Cross-Modal Fusion and Attention Mechanism for Weakly Supervised Video Anomaly Detection** <a id='HLGAtt'></a> \
-*Ayush Ghadiya, Purbayan Kar, Vishal Chudasama, Pankaj Wasnik* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF)\
 CVPR 24' Workshop [[paper](https://openaccess.thecvf.com/content/CVPR2024W/MULA/papers/Ghadiya_Cross-Modal_Fusion_and_Attention_Mechanism_for_Weakly_Supervised_Video_Anomaly_CVPRW_2024_paper.pdf)] 
@@ -84,7 +82,6 @@ CVPR 24' Workshop [[paper](https://openaccess.thecvf.com/content/CVPR2024W/MULA/
 ACM MM 24' [[paper](https://arxiv.org/pdf/2408.05905)][[OpenReview](https://openreview.net/forum?id=2es1ojI14x&referrer=%5Bthe%20profile%20of%20Peng%20Wu%5D(%2Fprofile%3Fid%3D~Peng_Wu2))]
 
 1. [ECU] **Exploiting Completeness and Uncertainty of Pseudo Labels for Weakly Supervised Video Anomaly Detection** <a id='ECU'></a>\
-*Chen Zhang, Guorong Li, Yuankai Qi, Shuhui Wang, Laiyun Qing, Qingming Huang, Ming-Hsuan Yang* \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 CVPR 23' [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Exploiting_Completeness_and_Uncertainty_of_Pseudo_Labels_for_Weakly_Supervised_CVPR_2023_paper.pdf)][[code](https://github.com/ArielZc/CU-Net)][[supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Zhang_Exploiting_Completeness_and_CVPR_2023_supplemental.pdf)]
 
@@ -119,7 +116,6 @@ CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Tex
 ICLR 25' [[paper](https://openreview.net/pdf?id=4ua4wyAQLm)][[code](https://github.com/AllenYLJiang/Local-Patterns-Generalize-Better/)][[OpenReview](https://openreview.net/forum?id=4ua4wyAQLm)]
 
 1. [LANP] **Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection** <a id="LANP"></a> \
-*Haoyue Shi, Le Wang, Sanping Zhou, Gang Hua, Wei Tang* \
 ![ResNext](https://img.shields.io/badge/ResNext-05CC47)\
 ECCV 24' [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00941.pdf)] 
 
@@ -156,7 +152,6 @@ ACM MM 24' [[paper](https://openreview.net/pdf?id=WsNFULCsyj)][[OpenReview](http
 
 ## Fully-supervised VAD Papers
 1. [EBB] **Exploring Background-bias for Anomaly Detection in Surveillance Videos** \
-*Kun Liu, Huadong Ma* \
 ACM MM 19' [[paper](https://dl.acm.org/doi/abs/10.1145/3343031.3350998)][[annotation](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation)]
 
 1. [ALVS] **ANOMALY LOCALITY IN VIDEO SURVEILLANCE** \
@@ -170,7 +165,6 @@ NeurIPS 24' [[paper](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f
 Intelligent Systems with Applications 23' [[paper](https://www.sciencedirect.com/science/article/pii/S2667305323000613)] 
 
 1. [WVAD-Review] **Weakly Supervised Anomaly Detection: A Survey** \
-*Minqi Jiang, Chaochuan Hou, Ao Zheng, Xiyang Hu, Songqiao Han, Hailiang Huang, Xiangnan He , Philip S. Yu, Yue Zhao* \
 arXiv 23' [[paper](https://arxiv.org/pdf/2302.04549)][[repo](https://github.com/yzhao062/wsad)]
 
 1. [VAD-10] **Video Anomaly Detection in 10 Years: A Survey and Outlook** \
@@ -488,7 +482,7 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 | [`XD-Violence`](https://roc-ng.github.io/XD-Violence/) | [`OneDrive`](https://roc-ng.github.io/XD-Violence/) | [`I3D RGB & VGGish`](https://roc-ng.github.io/XD-Violence/)| - | ECCV 20'|
 
 ### Statistics
-<table border="1">
+<table>
     <tr>
         <th>Dataset</th>
         <th>Year</th>
