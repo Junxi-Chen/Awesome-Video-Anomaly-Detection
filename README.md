@@ -477,9 +477,12 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 ### Links
 | Dataset | Download Links | Features | Frame-level Annotation | Publication |
 |:-----------|:------------|:------------|:------------|:------------|
-| [`ShanghaiTech Campus`](https://svip-lab.github.io/dataset/campus_dataset.html)      | [`BaiduYun`](https://pan.baidu.com/s/1W3_tkiiNHKd_4uQ2tgBq8g?pwd=3mh5)        |[`I3D RGB`](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |CVPR 18'       |
-| [`UCF-Crime`](https://www.crcv.ucf.edu/projects/real-world/)      | [`Dropbox`](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [`I3D RGB`](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [`Link`](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | CVPR 18'       |
-| [`XD-Violence`](https://roc-ng.github.io/XD-Violence/) | [`OneDrive`](https://roc-ng.github.io/XD-Violence/) | [`I3D RGB & VGGish`](https://roc-ng.github.io/XD-Violence/)| - | ECCV 20'|
+| [ShanghaiTech Campus](https://svip-lab.github.io/dataset/campus_dataset.html)      | [BaiduYun](https://pan.baidu.com/s/1W3_tkiiNHKd_4uQ2tgBq8g?pwd=3mh5)        |[I3D](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |[CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf)       |
+| [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/)      | [Dropbox](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [I3D](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [Link](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | [CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf)       |
+| [XD-Violence](https://roc-ng.github.io/XD-Violence/) | [OneDrive](https://roc-ng.github.io/XD-Violence/) | [I3D & VGGish](https://roc-ng.github.io/XD-Violence/)| - | [ECCV 20'](https://arxiv.org/pdf/2007.04687)|
+| [UBnormal](https://github.com/lilygeorgescu/UBnormal/) | [GoogleDrive](https://drive.google.com/file/d/1KbfdyasribAMbbKoBU1iywAhtoAt9QI0/view) | - | &#x2611; | [CVPR 22'](https://openaccess.thecvf.com/content/CVPR2022/papers/Acsintoae_UBnormal_New_Benchmark_for_Supervised_Open-Set_Video_Anomaly_Detection_CVPR_2022_paper.pdf)
+| [ECVA](https://github.com/Dulpy/ECVA) | [ModelScope](https://www.modelscope.cn/datasets/gouchenyi/ECVA/files) | - | - | [CVPR 24'](https://arxiv.org/pdf/2412.07183) |
+| [MSAD](https://msad-dataset.github.io) | [Request Form](https://forms.microsoft.com/pages/responsepage.aspx?id=XHJ941yrJEaa5fBTPkhkN0_bcDHlPvFAiLdm3BQe86NURVI5RlRWODhYWVZYSzNCSlBROThBTEQzOC4u&route=shorturl) | [Swin & I3D](https://drive.google.com/drive/folders/1mxFGCcAuEecN0c7MHD12wD4pO2Ej5kLe) | - | [NeurIPS 24'](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf) |
 
 ### Statistics
 <table>
@@ -493,6 +496,8 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <th>#Training Normal Videos</th>
         <th>#Test Abnormal Videos</th>
         <th>#Test Normal Videos</th>
+        <th>#Validation Normal Videos</th>
+        <th>#Validation Normal Videos</th>
         <th>#Anomaly Types</th>
     </tr>
     <tr>
@@ -505,6 +510,8 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <td>330</td>
         <td>107</td>
         <td>-</td>
+        <td rowspan="2">-</td>
+        <td rowspan="2">-</td>
         <td rowspan="2">13</td>
     </tr>
     <tr>
@@ -524,6 +531,8 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <td>800</td>
         <td>140</td>
         <td>150</td>
+        <td rowspan="2">-</td>
+        <td rowspan="2">-</td>
         <td rowspan="2">13</td>
     </tr>
     <tr>
@@ -543,14 +552,32 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <td>2049</td>
         <td>500</td>
         <td>300</td>
+        <td>-</td>
+        <td>-</td>
         <td>7</td>
+    </tr>
+    <tr>
+        <td>UBnormal</td>
+        <td>2022</td>
+        <td>Visual</td>
+        <td>543</td>
+        <td>Fully</td>
+        <td>82</td>
+        <td>186</td>
+        <td>158</td>
+        <td>53</td>
+        <td>38</td>
+        <td>26</td>
+        <td>22</td>
     </tr>
     <tr>
         <td>ECVA</td>
         <td>2024</td>
         <td>Visual & Audio & Text</td>
         <td>2240</td>
-        <td>Semi</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
@@ -567,6 +594,8 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <td>360</td>
         <td>240</td>
         <td>120</td>
+        <td rowspan="2">-</td>
+        <td rowspan="2">-</td>
         <td rowspan="2">55</td>
     </tr>
     <tr>
