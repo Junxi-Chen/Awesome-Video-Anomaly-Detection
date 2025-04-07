@@ -2,7 +2,7 @@
 ![GitHub License](https://img.shields.io/github/license/Junxi-Chen/Awesome-Video-Anomaly-Detection)
 ![Awesome](https://awesome.re/badge.svg)
 
-Video anomaly detection (VAD) aims to identify anomalous frames within given videos, which servers a vital function in critical areas, e.g., public security, media content monitoring and industrial manufacture. This repository collects latest research papers, code, datasets, utilities and related resources for VAD.
+Video anomaly detection(VAD) aims to identify anomalous frames within given videos. This repository collects latest research papers, code, datasets, utilities and related resources for VAD.
 
 If you find this repository helpful, feel free to star🌟 or share it😀! If you spot any errors, notice omissions or have any suggestions, please reach out via GitHub [issues](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues), [pull requests](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls) or [email]((mailto:chenjunxi22@mails.ucas.ac.cn)).
 
@@ -483,14 +483,18 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 | [UBnormal](https://github.com/lilygeorgescu/UBnormal/) | [GoogleDrive](https://drive.google.com/file/d/1KbfdyasribAMbbKoBU1iywAhtoAt9QI0/view) | - | &#x2611; | [CVPR 22'](https://openaccess.thecvf.com/content/CVPR2022/papers/Acsintoae_UBnormal_New_Benchmark_for_Supervised_Open-Set_Video_Anomaly_Detection_CVPR_2022_paper.pdf)
 | [ECVA](https://github.com/Dulpy/ECVA) | [ModelScope](https://www.modelscope.cn/datasets/gouchenyi/ECVA/files) | - | - | [CVPR 24'](https://arxiv.org/pdf/2412.07183) |
 | [MSAD](https://msad-dataset.github.io) | [Request Form](https://forms.microsoft.com/pages/responsepage.aspx?id=XHJ941yrJEaa5fBTPkhkN0_bcDHlPvFAiLdm3BQe86NURVI5RlRWODhYWVZYSzNCSlBROThBTEQzOC4u&route=shorturl) | [Swin & I3D](https://drive.google.com/drive/folders/1mxFGCcAuEecN0c7MHD12wD4pO2Ej5kLe) | - | [NeurIPS 24'](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf) |
+| [TAD](https://github.com/ktr-hubrt/WSAL?tab=readme-ov-file) | [GoogleDrive](https://drive.google.com/drive/folders/1cofMJGglil4vddrq_unuy7EEhthMYtuq) | - | - | [TIP 21'](https://ieeexplore.ieee.org/abstract/document/9408419) |
 
 ### Statistics
 <table>
     <tr>
         <th>Dataset</th>
+        <th>Citations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
         <th>Year</th>
+        <th>Source</th>
+        <th>Domain</th>
         <th>Modality</th>
-        <th>#Videos</td>
+        <th>#Videos</th>
         <th>Supervision</th>
         <th>#Training Abnormal Videos</th>
         <th>#Training Normal Videos</th>
@@ -502,7 +506,10 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
     <tr>
         <td rowspan="2">ShanghaiTech</td>
+        <td rowspan="2"> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1109%2Fcvpr.2018.00684%26shield&color=417FFA" /></a> </td>
         <td rowspan="2">2018</td>
+        <td rowspan="2">Surveillance</td>
+        <td rowspan="2">Campus</td>
         <td rowspan="2">Visual</td>
         <td rowspan="2">437</td>
         <td>Semi</td>
@@ -523,7 +530,10 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
     <tr>
         <td rowspan="2">UCF-Crime</td>
+        <td rowspan="2"> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1109%2Fcvpr.2018.00678%26shield&color=417FFA" /></a> </td>
         <td rowspan="2">2018</td>
+        <td rowspan="2">Surveillance</td>
+        <td rowspan="2">Crime</td>
         <td rowspan="2">Visual</td>
         <td rowspan="2">1900</td>
         <td>Semi<sup>†</sup></td>
@@ -544,7 +554,10 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
     <tr>
         <td>XD-Violence</td>
+        <td> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1007%2F978-3-030-58577-8%5F20%26shield&color=417FFA" /></a> </td>
         <td>2020</td>
+        <td>Film & Online</td>
+        <td>Multiple</td>
         <td>Visual & Audio</td>
         <td>4754</td>
         <td>Weakly</td>
@@ -558,7 +571,10 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
     <tr>
         <td>UBnormal</td>
+        <td> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1109%2Fcvpr52688.2022.01951%26shield&color=417FFA" /></a> </td>
         <td>2022</td>
+        <td>Virtual</td>
+        <td>Pedestrian</td>
         <td>Visual</td>
         <td>543</td>
         <td>Fully</td>
@@ -572,7 +588,10 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
     <tr>
         <td>ECVA</td>
+        <td> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1109%2Fcvpr52733.2024.01778%26shield&color=417FFA" /></a> </td>
         <td>2024</td>
+        <td>Online</td>
+        <td>Multiple</td>
         <td>Visual & Audio & Text</td>
         <td>2240</td>
         <td>-</td>
@@ -586,7 +605,10 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     </tr>
     <tr>
         <td rowspan="2">MSAD</td>
+        <td rowspan="2"> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.48550%2FarXiv.2402.04857%26shield&color=417FFA" /></a> </td>
         <td rowspan="2">2024</td>
+        <td rowspan="2">Surveillance</td>
+        <td rowspan="2">Multiple</td>
         <td rowspan="2">Visual</td>
         <td rowspan="2">720</td>
         <td>Semi</td>
@@ -605,6 +627,23 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <td>120</td>
         <td>120</td>
     </tr>
+    <tr>
+        <td>TAD</td>
+        <td> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1109%2FTIP.2021.3072863%26shield&color=417FFA" /></a> </td>
+        <td>2021</td>
+        <td>Surveillance</td>
+        <td>Traffic</td>
+        <td>Visual</td>
+        <td>500</td>
+        <td>Weakly</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>7</td>
+    </tr>
 </table>
 <div style="font-size: smaller; margin-top: 1em;">
     # : denotes "number of".<br>
@@ -613,7 +652,7 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 </div>
 
 ## Utilities
-[Video & Audio Feature Extraction] [`video_features`](https://github.com/v-iashin/video_features): it allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
+[Video & Audio Feature Extraction]: [video_features](https://github.com/v-iashin/video_features) allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
 
 
 ## Related Repositories
