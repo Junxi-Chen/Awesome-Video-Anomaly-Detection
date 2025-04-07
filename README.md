@@ -2,7 +2,7 @@
 ![GitHub License](https://img.shields.io/github/license/Junxi-Chen/Awesome-Video-Anomaly-Detection)
 ![Awesome](https://awesome.re/badge.svg)
 
-Video anomaly detection(VAD) aims to identify anomalous frames within given videos. This repository collects latest research papers, code, datasets, utilities and related resources for VAD.
+Video anomaly detection(VAD) aims to identify anomalous frames within given videos. This repository collects latest research papers, code, datasets, seminars, utilities and related resources for VAD.
 
 If you find this repository helpful, feel free to star🌟 or share it😀! If you spot any errors, notice omissions or have any suggestions, please reach out via GitHub [issues](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues), [pull requests](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls) or [email]((mailto:chenjunxi22@mails.ucas.ac.cn)).
 
@@ -21,6 +21,7 @@ If you find this repository helpful, feel free to star🌟 or share it😀! If y
   - [Datasets](#datasets)
     - [Links](#links)
     - [Statistics](#statistics)
+  - [Seminars](#seminars)
   - [Utilities](#utilities)
   - [Related Repositories](#related-repositories)
 
@@ -59,7 +60,7 @@ CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Zanella_
 ![LLM](https://img.shields.io/badge/LLM-FFA500)\
 CVPR 24' [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Du_Uncovering_What_Why_and_How_A_Comprehensive_Benchmark_for_Causation_CVPR_2024_paper.pdf)][[code & dataset](https://github.com/fesvhtr/CUVA)][[supp](https://openaccess.thecvf.com/content/CVPR2024/html/Du_Uncovering_What_Why_and_How_A_Comprehensive_Benchmark_for_Causation_CVPR_2024_paper.html)]
 
-1. [TDSD] **TDSD: Text-Driven Scene-Decoupled Weakly Supervised Video Anomaly Detection** \
+1. [TDSD] **TDSD: Text-Driven Scene-Decoupled Weakly Supervised Video Anomaly Detection** <a id='TDSD'></a> \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
@@ -480,16 +481,19 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 | [ShanghaiTech Campus](https://svip-lab.github.io/dataset/campus_dataset.html)      | [BaiduYun](https://pan.baidu.com/s/1W3_tkiiNHKd_4uQ2tgBq8g?pwd=3mh5)        |[I3D](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |[CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf)       |
 | [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/)      | [Dropbox](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [I3D](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [Link](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | [CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf)       |
 | [XD-Violence](https://roc-ng.github.io/XD-Violence/) | [OneDrive](https://roc-ng.github.io/XD-Violence/) | [I3D & VGGish](https://roc-ng.github.io/XD-Violence/)| - | [ECCV 20'](https://arxiv.org/pdf/2007.04687)|
+| [NWPU Campus](https://campusvaa.github.io) | [BaiduYun](https://pan.baidu.com/share/init?surl=mhhxdYYKYZsWBO36NX655g&pwd=il54) & [Google Drive](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link) | - | - | [CVPR 23'](https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper.pdf) & [T-PAMI 24'](https://ieeexplore.ieee.org/abstract/document/10681297) |
 | [UBnormal](https://github.com/lilygeorgescu/UBnormal/) | [GoogleDrive](https://drive.google.com/file/d/1KbfdyasribAMbbKoBU1iywAhtoAt9QI0/view) | - | &#x2611; | [CVPR 22'](https://openaccess.thecvf.com/content/CVPR2022/papers/Acsintoae_UBnormal_New_Benchmark_for_Supervised_Open-Set_Video_Anomaly_Detection_CVPR_2022_paper.pdf)
 | [ECVA](https://github.com/Dulpy/ECVA) | [ModelScope](https://www.modelscope.cn/datasets/gouchenyi/ECVA/files) | - | - | [CVPR 24'](https://arxiv.org/pdf/2412.07183) |
 | [MSAD](https://msad-dataset.github.io) | [Request Form](https://forms.microsoft.com/pages/responsepage.aspx?id=XHJ941yrJEaa5fBTPkhkN0_bcDHlPvFAiLdm3BQe86NURVI5RlRWODhYWVZYSzNCSlBROThBTEQzOC4u&route=shorturl) | [Swin & I3D](https://drive.google.com/drive/folders/1mxFGCcAuEecN0c7MHD12wD4pO2Ej5kLe) | - | [NeurIPS 24'](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf) |
 | [TAD](https://github.com/ktr-hubrt/WSAL?tab=readme-ov-file) | [GoogleDrive](https://drive.google.com/drive/folders/1cofMJGglil4vddrq_unuy7EEhthMYtuq) | - | - | [TIP 21'](https://ieeexplore.ieee.org/abstract/document/9408419) |
+| NPDI | [Contact Email](mailto:sandra@ic.unicamp.br) | - | - | [CVIU 13'](https://www.sciencedirect.com/science/article/abs/pii/S1077314212001737) |
+| Pornography-2k | [Contact Email](mailto:anderson.rocha@gmail.com) | - | - | [FSI 16'](https://www.sciencedirect.com/science/article/abs/pii/S0379073816304169) |
 
 ### Statistics
 <table>
     <tr>
         <th>Dataset</th>
-        <th>Citations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Citations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
         <th>Year</th>
         <th>Source</th>
         <th>Domain</th>
@@ -551,6 +555,28 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <td>800</td>
         <td>140</td>
         <td>150</td>
+    </tr>
+    <tr>
+        <td rowspan="2">NWPU Campus</td>
+        <td rowspan="2"> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1109%2Fcvpr52729.2023.01953%26shield&color=417FFA" /></a> </td>
+        <td rowspan="2">2023</td>
+        <td rowspan="2">Surveillance</td>
+        <td rowspan="2">Campus</td>
+        <td rowspan="2">Visual</td>
+        <td rowspan="2">547</td>
+        <td>Semi</td>
+        <td>-</td>
+        <td>305</td>
+        <td>124</td>
+        <td>118</td>
+        <td rowspan="2">-</td>
+        <td rowspan="2">-</td>
+        <td rowspan="2">28</td>
+    </tr>
+    <tr>
+        <td>Weakly<sup>‡</sup></td>
+        <td colspan="2" align="center">361</td>
+        <td colspan="2" align="center">213</td>
     </tr>
     <tr>
         <td>XD-Violence</td>
@@ -644,15 +670,54 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
         <td>-</td>
         <td>7</td>
     </tr>
+    <tr>
+        <td>NDPI</td>
+        <td> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1016/j.cviu.2012.09.007%26shield&color=417FFA" /></a> </td>
+        <td>2021</td>
+        <td>Online</td>
+        <td>Nudity</td>
+        <td>Visual</td>
+        <td>800</td>
+        <td>Weakly</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Pornography-2k</td>
+        <td> <a><img src="https://img.shields.io/endpoint?&url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fdoi%3D10.1016/j.forsciint.2016.09.010%26shield&color=417FFA" /></a> </td>
+        <td>2021</td>
+        <td>Online</td>
+        <td>Nudity</td>
+        <td>Visual</td>
+        <td>2000</td>
+        <td>Weakly</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>1</td>
+    </tr>
 </table>
 <div style="font-size: smaller; margin-top: 1em;">
     # : denotes "number of".<br>
     * : ShanghaiTech was initially proposed as a semi-supervised VAD dataset, and <a href='#Plug-and-play'>Zhong etal</a>. later introduced its weakly supervised split.<br>
-    †: UCF-Crime was originally introduced as a weakly-supervised VAD dataset, and the dataset split under semi-supervision are sourced from <a href='#MULDE'>MULDE.</a>
+    †: UCF-Crime was originally introduced as a weakly-supervised VAD dataset, and the dataset split under semi-supervision are sourced from <a href='#MULDE'>MULDE.</a> <br>
+    ‡: NWPU Campus was initially proposed as a semi-supervised VAD dataset, and <a href='#TDSD'>TDSD</a> later introduced its <a href='https://github.com/shengyangsun/TDSD/tree/master/data/NWPU_split'>weakly supervised split</a>.<br>
 </div>
 
+## Seminars
+1. Recent advances in anomaly detection. \
+  CVPR 23' Tutorial [[link](https://www.youtube.com/watch?v=dXxrzWeybBo)]
+
 ## Utilities
-[Video & Audio Feature Extraction]: [video_features](https://github.com/v-iashin/video_features) allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
+[[ViEvaluation Feature]: [video_features](https://github.com/v-iashin/video_features) allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
 
 
 ## Related Repositories
@@ -660,4 +725,6 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 [WSAD](https://github.com/yzhao062/wsad): a comprehensive collection and categorization of weakly supervised anomaly detection papers.
 
-[awesome anomaly detection](https://github.com/hoya012/awesome-anomaly-detection): a curated list of awesome anomaly detection resources, including time-series anomaly detection, video-level anomaly detection, image-level anomaly detection.
+[awesome anomaly detection](https://github.com/hoya012/awesome-anomaly-detection): a curated list of awesome anomaly detection resources, including time-series anomaly detection, video-level anomaly detection, image-level anomaly detection, last updated in November 2021.
+
+[anomaly detection resources](https://github.com/yzhao062/anomaly-detection-resources?tab=readme-ov-file): a comprehensive resource for anomaly detection, featuring a wide range of papers on various domains, e.g., image, time-series, financial, and social media anomaly detection. It contains only a subset of materials specifically related to video anomaly detection.
