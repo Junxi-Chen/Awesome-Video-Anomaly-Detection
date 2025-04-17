@@ -2,7 +2,7 @@
 ![GitHub License](https://img.shields.io/github/license/Junxi-Chen/Awesome-Video-Anomaly-Detection)
 ![Awesome](https://awesome.re/badge.svg)
 
-Video anomaly detection(VAD) aims to identify anomalous frames within given videos. This repository collects latest research papers, code, datasets, seminars, utilities and related resources for VAD.
+Video anomaly detection (VAD) aims to identify anomalous frames within given videos. This repository collects latest research papers, code, datasets, seminars, utilities and related resources for VAD.
 
 If you find this repository helpful, feel free to star🌟 or share it😀! If you spot any errors, notice omissions or have any suggestions, please reach out via GitHub [issues](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues), [pull requests](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls) or [email]((mailto:chenjunxi22@mails.ucas.ac.cn)).
 
@@ -22,6 +22,7 @@ If you find this repository helpful, feel free to star🌟 or share it😀! If y
     - [Links](#links)
     - [Statistics](#statistics)
   - [Seminars](#seminars)
+  - [Evaluation Metrics](#evaluation-metrics)
   - [Utilities](#utilities)
   - [Related Repositories](#related-repositories)
 
@@ -716,8 +717,35 @@ T-PAMI 23' [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 1. Recent advances in anomaly detection. \
   CVPR 23' Tutorial [[link](https://www.youtube.com/watch?v=dXxrzWeybBo)]
 
+## Evaluation Metrics
+<details>
+    <summary>1. AUC</summary>
+    Area Under Curve (AUC) of <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc">Receiver-Operating Characteristic curve</a> (ROC) is a primary evaluation metric for VAD, measuring  classification performance across all thresholds. The ROC curve plots the <a href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall#recall_or_true_positive_rate"> True Positive Rate</a> (TPR) on the y-axis against the <a href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall#false_positive_rate"> False Positive Rate</a> (FPR) on the x-axis at various thresholds. AUC is computed as the integral of the ROC curve, ranging from 0 to 1, where 0.5 indicates performance approximating random guessing, and 1 denotes perfect discrimination. A higher AUC value indicates superior performance. AUC is a commonly used evaluation metric for the <a href="https://svip-lab.github.io/dataset/campus_dataset.html"> ShanghaiTech Campus</a> and <a href="https://www.crcv.ucf.edu/projects/real-world/"> UCF-Crime</a> datasets .
+    <!--
+    <div>
+    <details>
+      <summary>micro-AUC</summary>
+      **注意：** 这里是你的 Callout 内容。
+    </details>
+    <details>
+      <summary>macro-AUC</summary>
+      **注意：** 这里是你的 Callout 内容。
+    </details>
+    </div>
+    --!>
+</details>
+<details>
+  <summary>2. AP</summary>
+  Average precision (AP) summarizes a Precision-Recall (PR) curve into a single value representing the average of all precisions. It is generally understood as the approximation of the area under the PR curve. AP ranges between 0 and 1, where a perfect model has precision, recall, and AP scores of 1. The larger the metric, the better a model performs across different thresholds<sup>[<a href="https://docs.kolena.com/metrics/average-precision/">*</a>]</sup>.
+</details>
+<details>
+    <summary>3. FAR</summary>
+    False Alarm Rate (FAR) with a threshold of 0.5 is evaluated to measure the reliability of detection results, proposed in <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf">UCF-Crime</a>.
+</details>
+
+
 ## Utilities
-[[ViEvaluation Feature]: [video_features](https://github.com/v-iashin/video_features) allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
+[Video & Audio Feature Extraction]: [video_features](https://github.com/v-iashin/video_features) allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
 
 
 ## Related Repositories
