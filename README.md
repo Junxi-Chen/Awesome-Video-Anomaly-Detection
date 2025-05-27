@@ -28,14 +28,17 @@ If you find this repository helpful, feel free to star🌟 or share it😀! If y
 
 
 ## Recent Updates
+<!---
+ &nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) 
+-->
 Last Update: April, 2025
 - ICLR '25
 - ACM MM '24
 - ECCV '24
 
-Papers: \
-<a href='#review-and-dataset'>Review and a new dataset</a> \
-<a href='#benchmark-review'>Benchmark Review</a>
+Related Repositories: \
+<a href='#uws4vad'>uws4vad</a> \
+<a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 ## New Setting Papers
 1. [VAR] **Toward Video Anomaly Retrieval From Video Anomaly Detection: New Benchmarks and Model**\
@@ -160,10 +163,10 @@ ACM MM 19' [[paper](https://dl.acm.org/doi/abs/10.1145/3343031.3350998)][[annota
 arXiv 19' [[paper](https://arxiv.org/pdf/1901.10364)][[project](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=30)][[annotation](https://drive.google.com/drive/folders/1Hu2oke7acBqcKKyUpv5NBmQ2fDiYn87c)]
 
 ## Surveys
-1. [MSAD] **Advancing Video Anomaly Detection: A Concise Review and a New Dataset** <a id="review-and-dataset"></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+1. [MSAD] **Advancing Video Anomaly Detection: A Concise Review and a New Dataset** <a id="review-and-dataset"></a> \
 NeurIPS '24 [[paper](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf)][[project](https://msad-dataset.github.io)]
 
-1. [BenchmarkReview] **Unveiling the performance of video anomaly detection models — A benchmark-based review** <a id="benchmark-review"></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+1. [BenchmarkReview] **Unveiling the performance of video anomaly detection models — A benchmark-based review** <a id="benchmark-review"></a> \
 Intelligent Systems with Applications '23 [[paper](https://www.sciencedirect.com/science/article/pii/S2667305323000613)] 
 
 1. [WVAD-Review] **Weakly Supervised Anomaly Detection: A Survey** \
@@ -749,6 +752,10 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 
 ## Related Repositories
+[uws4vad-wiki](https://github.com/zuble/uws4vad/wiki/Meth): a comprehensive benchmark table for VAD datasets and methods, frequently updated. <a id='uws4vad'></a> &nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) 
+
+[Video-Anomaly-Detection](https://github.com/vt-le/Video-Anomaly-Detection): a curated list of video anomaly detection papers. <a id='VAD-table'></a> &nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) 
+
 [awesome-video-anomaly-detection](https://github.com/fjchange/awesome-video-anomaly-detection): an awesome collection of papers and codes for video anomaly detection, updated to CVPR '22.
 
 [WSAD](https://github.com/yzhao062/wsad): a comprehensive collection and categorization of weakly supervised anomaly detection papers.
