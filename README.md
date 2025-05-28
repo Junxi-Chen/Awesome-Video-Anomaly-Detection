@@ -31,16 +31,30 @@ If you find this repository helpful, feel free to star🌟 or share it😀! If y
 <!---
  &nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) 
 -->
-Last Update: April, 2025
+Last Update: May, 2025
+- CVPR '25
 - ICLR '25
 - ACM MM '24
-- ECCV '24
 
 Related Repositories: \
 <a href='#uws4vad'>uws4vad</a> \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
+Papers: \
+<a href='#Holmes-VAU'>Holmes-VAU</a> \
+<a href='#HAWK'>HAWK</a> \
+<a href='#UCA'>UCA</a> \
+<a href='#GlanceVAD'>GlanceVAD</a>
+
 ## New Setting Papers
+1. [Holmes-VAU] **Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity** <a id='Holmes-VAU'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) \
+CVPR '25 [[paper](https://arxiv.org/pdf/2412.06171)][[code & annotation](https://github.com/pipixin321/HolmesVAU)]
+
+1. [HAWK] **HAWK: Learning to Understand Open-World Video Anomalies** <a id='HAWK'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+![LLM](https://img.shields.io/badge/LLM-FFA500) \
+NeurIPS '24 [[paper](https://github.com/jqtangust/hawk)][[code](https://github.com/jqtangust/hawk)][[annotation](https://drive.google.com/file/d/1WCnizldWZvtS4Yg5SX7ay5C3kUQfz-Eg/view)]
+
 1. [VAR] **Toward Video Anomaly Retrieval From Video Anomaly Detection: New Benchmarks and Model**\
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF)\
@@ -49,6 +63,14 @@ TIP '24 [[paper](https://ieeexplore.ieee.org/document/10471334/authors#authors)]
 1. [AnomalyRuler] **Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models** \
 ![LLM](https://img.shields.io/badge/LLM-FFA500)\
 ECCV '24 [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10568.pdf)][[code](https://github.com/Yuchen413/AnomalyRuler)]
+
+1. [UCA] **Towards Surveillance Video-and-Language Understanding: New Dataset,
+Baselines, and Challenges** <a id='UCA'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Towards_Surveillance_Video-and-Language_Understanding_New_Dataset_Baselines_and_Challenges_CVPR_2024_paper.pdf)][[code & annotation](https://github.com/Xuange923/Surveillance-Video-Understanding)][[project](https://xuange923.github.io/Surveillance-Video-Understanding)]
+
+1. [GlanceVAD] **GlanceVAD: Exploring Glance Supervision for Label-efficient Video Anomaly Detection** <a id='GlanceVAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+![I3D](https://img.shields.io/badge/I3D-35BF5C) \
+ICME '25 [[paper](https://arxiv.org/pdf/2403.06154)][[code & annotation](https://github.com/pipixin321/GlanceVAD)]
 
 1. [OVVAD] **Open-Vocabulary Video Anomaly Detection** \
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
@@ -480,10 +502,10 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 ## Datasets
 ### Links
-| Dataset | Download Links | Features | Frame-level Annotation | Publication |
+| Dataset | Download Links | Features | Additional Annotations | Publication |
 |:-----------|:------------|:------------|:------------|:------------|
 | [ShanghaiTech Campus](https://svip-lab.github.io/dataset/campus_dataset.html)      | [BaiduYun](https://pan.baidu.com/s/1W3_tkiiNHKd_4uQ2tgBq8g?pwd=3mh5)        |[I3D](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |[CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf)       |
-| [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/)      | [Dropbox](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [I3D](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [Link](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | [CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf)       |
+| [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/)      | [Dropbox](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [I3D](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [Full Annotation & Bounding Box Annotation](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | [CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf)       |
 | [XD-Violence](https://roc-ng.github.io/XD-Violence/) | [OneDrive](https://roc-ng.github.io/XD-Violence/) | [I3D & VGGish](https://roc-ng.github.io/XD-Violence/)| - | [ECCV 20'](https://arxiv.org/pdf/2007.04687)|
 | [NWPU Campus](https://campusvaa.github.io) | [BaiduYun](https://pan.baidu.com/share/init?surl=mhhxdYYKYZsWBO36NX655g&pwd=il54) & [Google Drive](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link) | - | - | [CVPR '23](https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper.pdf) & [T-PAMI '24](https://ieeexplore.ieee.org/abstract/document/10681297) |
 | [UBnormal](https://github.com/lilygeorgescu/UBnormal/) | [GoogleDrive](https://drive.google.com/file/d/1KbfdyasribAMbbKoBU1iywAhtoAt9QI0/view) | - | &#x2611; | [CVPR '22](https://openaccess.thecvf.com/content/CVPR2022/papers/Acsintoae_UBnormal_New_Benchmark_for_Supervised_Open-Set_Video_Anomaly_Detection_CVPR_2022_paper.pdf)
