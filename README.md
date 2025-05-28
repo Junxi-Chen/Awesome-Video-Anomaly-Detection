@@ -41,12 +41,19 @@ Related Repositories: \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 Papers: \
+<a href='#VQA-589K'>VQA-589K</a> \
 <a href='#Holmes-VAU'>Holmes-VAU</a> \
 <a href='#HAWK'>HAWK</a> \
 <a href='#UCA'>UCA</a> \
 <a href='#GlanceVAD'>GlanceVAD</a>
 
 ## New Setting Papers
+1. [VQA-589K] **SurveillanceVQA-589K: A Benchmark for
+Comprehensive Surveillance Video-Language
+Understanding with Large Models** <a id='VQA-589K'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) \
+arXiv '25 [[paper](https://arxiv.org/pdf/2505.12589)][[annotation](https://huggingface.co/datasets/fei213/SurveillanceVQA-589K)]
+
 1. [Holmes-VAU] **Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity** <a id='Holmes-VAU'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
 ![LLM](https://img.shields.io/badge/LLM-FFA500) \
 CVPR '25 [[paper](https://arxiv.org/pdf/2412.06171)][[code & annotation](https://github.com/pipixin321/HolmesVAU)]
@@ -501,7 +508,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 
 ## Datasets
-![image](pics/annnotation.png)
+![image](pics/annotation.png)
 ### Links
 | Dataset | Download Links | Features | Additional Annotations | Publication |
 |:-----------|:------------|:------------|:------------|:------------|
