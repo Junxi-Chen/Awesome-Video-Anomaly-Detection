@@ -58,7 +58,7 @@ NeurIPS '24 [[paper](https://github.com/jqtangust/hawk)][[code](https://github.c
 1. [VAR] **Toward Video Anomaly Retrieval From Video Anomaly Detection: New Benchmarks and Model**\
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF)\
-TIP '24 [[paper](https://ieeexplore.ieee.org/document/10471334/authors#authors)][[dataset](https://github.com/Roc-Ng/VAR)]
+TIP '24 [[paper](https://ieeexplore.ieee.org/document/10471334/)][[dataset](https://github.com/Roc-Ng/VAR)]
 
 1. [AnomalyRuler] **Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models** \
 ![LLM](https://img.shields.io/badge/LLM-FFA500)\
@@ -151,10 +151,10 @@ ECCV '24 [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00941
 ECCV '24 [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04450.pdf)][[code](https://github.com/benedictstar/Joint-VAD)]
 
 1. [SSAE] **Scene-Dependent Prediction in Latent Space for Video Anomaly Detection and Anticipation** <a id="SSAE"></a> \
-T-PAMI '24[[paper](https://ieeexplore.ieee.org/abstract/document/10681297)][[project](https://campusvaa.github.io)][[code](https://github.com/zugexiaodui/campus_vad_code)][[dataset](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link)]
+T-PAMI '24[[paper](https://ieeexplore.ieee.org/abstract/document/10681297/)][[project](https://campusvaa.github.io)][[code](https://github.com/zugexiaodui/campus_vad_code)][[dataset](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link)]
 
 1. [DoTA] **DoTA: Unsupervised Detection of Traffic Anomaly in Driving Videos** \
-T-PAMI '23 [[paper](https://ieeexplore.ieee.org/document/9712446)][[code](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)][[dataset](https://drive.google.com/drive/folders/1_WzhwZC2NIpzZIpX7YCvapq66rtBc67n)]
+T-PAMI '23 [[paper](https://ieeexplore.ieee.org/document/9712446/)][[code](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)][[dataset](https://drive.google.com/drive/folders/1_WzhwZC2NIpzZIpX7YCvapq66rtBc67n)]
 
 1. [AED-MAE] **Self-Distilled Masked Auto-Encoders are Efficient Video Anomaly Detectors** <a id="AED-MAE"></a> \
 CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ristea_Self-Distilled_Masked_Auto-Encoders_are_Efficient_Video_Anomaly_Detectors_CVPR_2024_paper.pdf)][[code](https://github.com/ristea/aed-mae/tree/main)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Ristea_Self-Distilled_Masked_Auto-Encoders_CVPR_2024_supplemental.pdf)]
@@ -507,11 +507,11 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 | [ShanghaiTech Campus](https://svip-lab.github.io/dataset/campus_dataset.html)      | [BaiduYun](https://pan.baidu.com/s/1W3_tkiiNHKd_4uQ2tgBq8g?pwd=3mh5)        |[I3D](https://drive.google.com/file/d/1kIv502RxQnMer-8HB7zrU_GU7CNPNNDv/view?usp=drive_link) | - |[CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf)       |
 | [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/)      | [Dropbox](https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=1&dl=0) |  [I3D](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/EvYcZ5rQZClGs_no2g-B0jcB4ynsonVQIreHIojNnUmPyA?e=xNrGxc)     |  [Full Annotation & Bounding Box Annotation](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation) | [CVPR 18'](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.pdf)       |
 | [XD-Violence](https://roc-ng.github.io/XD-Violence/) | [OneDrive](https://roc-ng.github.io/XD-Violence/) | [I3D & VGGish](https://roc-ng.github.io/XD-Violence/)| - | [ECCV 20'](https://arxiv.org/pdf/2007.04687)|
-| [NWPU Campus](https://campusvaa.github.io) | [BaiduYun](https://pan.baidu.com/share/init?surl=mhhxdYYKYZsWBO36NX655g&pwd=il54) & [Google Drive](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link) | - | - | [CVPR '23](https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper.pdf) & [T-PAMI '24](https://ieeexplore.ieee.org/abstract/document/10681297) |
+| [NWPU Campus](https://campusvaa.github.io) | [BaiduYun](https://pan.baidu.com/share/init?surl=mhhxdYYKYZsWBO36NX655g&pwd=il54) & [Google Drive](https://drive.google.com/drive/folders/1_EztmkNpTPyVb4lM0m4rLTXgXo_LzgF1?usp=share_link) | - | - | [CVPR '23](https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_A_New_Comprehensive_Benchmark_for_Semi-Supervised_Video_Anomaly_Detection_and_CVPR_2023_paper.pdf) & [T-PAMI '24](https://ieeexplore.ieee.org/abstract/document/10681297/) |
 | [UBnormal](https://github.com/lilygeorgescu/UBnormal/) | [GoogleDrive](https://drive.google.com/file/d/1KbfdyasribAMbbKoBU1iywAhtoAt9QI0/view) | - | &#x2611; | [CVPR '22](https://openaccess.thecvf.com/content/CVPR2022/papers/Acsintoae_UBnormal_New_Benchmark_for_Supervised_Open-Set_Video_Anomaly_Detection_CVPR_2022_paper.pdf)
 | [ECVA](https://github.com/Dulpy/ECVA) | [ModelScope](https://www.modelscope.cn/datasets/gouchenyi/ECVA/files) | - | - | [CVPR '24](https://arxiv.org/pdf/2412.07183) |
 | [MSAD](https://msad-dataset.github.io) | [Request Form](https://forms.microsoft.com/pages/responsepage.aspx?id=XHJ941yrJEaa5fBTPkhkN0_bcDHlPvFAiLdm3BQe86NURVI5RlRWODhYWVZYSzNCSlBROThBTEQzOC4u&route=shorturl) | [Swin & I3D](https://drive.google.com/drive/folders/1mxFGCcAuEecN0c7MHD12wD4pO2Ej5kLe) | - | [NeurIPS '24](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf) |
-| [TAD](https://github.com/ktr-hubrt/WSAL?tab=readme-ov-file) | [GoogleDrive](https://drive.google.com/drive/folders/1cofMJGglil4vddrq_unuy7EEhthMYtuq) | - | - | [TIP '21](https://ieeexplore.ieee.org/abstract/document/9408419) |
+| [TAD](https://github.com/ktr-hubrt/WSAL?tab=readme-ov-file) | [GoogleDrive](https://drive.google.com/drive/folders/1cofMJGglil4vddrq_unuy7EEhthMYtuq) | - | - | [TIP '21](https://ieeexplore.ieee.org/abstract/document/9408419/) |
 | NPDI | [Contact Email](mailto:sandra@ic.unicamp.br) | - | - | [CVIU 13'](https://www.sciencedirect.com/science/article/abs/pii/S1077314212001737) |
 | Pornography-2k | [Contact Email](mailto:anderson.rocha@gmail.com) | - | - | [FSI 16'](https://www.sciencedirect.com/science/article/abs/pii/S0379073816304169) |
 
