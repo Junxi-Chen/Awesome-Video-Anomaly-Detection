@@ -8,23 +8,22 @@ If you find this repository helpful, feel free to star🌟 or share it😀! If y
 
 
 ## Contents
-- [Awesome Video Anomaly Detection](#awesome-video-anomaly-detection)
-  - [Contents](#contents)
-  - [Recent Updates](#recent-updates)
-  - [New Setting Papers](#new-setting-papers)
-  - [Weakly-supervised VAD Papers](#weakly-supervised-vad-papers)
-    - [Prompt Involved Papers](#prompt-involved-papers)
-  - [Semi-supervised VAD Papers](#semi-supervised-vad-papers)
-  - [Fully-supervised VAD Papers](#fully-supervised-vad-papers)
-  - [Surveys](#surveys)
-  - [Benchmarks](#benchmarks)
-  - [Datasets](#datasets)
-    - [Links](#links)
-    - [Statistics](#statistics)
-  - [Seminars](#seminars)
-  - [Evaluation Metrics](#evaluation-metrics)
-  - [Utilities](#utilities)
-  - [Related Repositories](#related-repositories)
+- [Recent Updates](#recent-updates)
+- [New Setting Papers](#new-setting-papers)
+- [Weakly-supervised VAD Papers](#weakly-supervised-vad-papers)
+  - [Prompt Involved Papers](#prompt-involved-papers)
+- [Semi-supervised VAD Papers](#semi-supervised-vad-papers)
+- [Skeleton-based Papers](#skeleton-based-papers)
+- [Fully-supervised VAD Papers](#fully-supervised-vad-papers)
+- [Surveys](#surveys)
+- [Benchmarks](#benchmarks)
+- [Datasets](#datasets)
+  - [Links](#links)
+  - [Statistics](#statistics)
+- [Seminars](#seminars)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Utilities](#utilities)
+- [Related Repositories](#related-repositories)
 
 
 ## Recent Updates
@@ -37,34 +36,49 @@ Last Update: May, 2025
 - ACM MM '24
 
 Related Repositories: \
-<a href='#uws4vad'>uws4vad</a> \
+<a href='#uws4vad'>uws4vad</a> 🔥🔥🔥 \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 Papers: \
-<a href='#VQA-589K'>VQA-589K</a> \
+<a href='#VANE-Bench'>VANE-Bench</a> \
+<a href='#Sherlock'>Sherlock</a> \
+<a href='#SurveillanceVQA-589K'>SurveillanceVQA-589K</a> \
 <a href='#Holmes-VAU'>Holmes-VAU</a> \
 <a href='#HAWK'>HAWK</a> \
 <a href='#UCA'>UCA</a> \
-<a href='#GlanceVAD'>GlanceVAD</a>
+<a href='#GlanceVAD'>GlanceVAD</a> \
+<a href='#UCF-Crime-DVS'>UCF-Crime-DVS</a> \
+<a href='#GiCiSAD'>GiCiSAD</a> \
+<a href='#PoseWatch'>PoseWatch</a> \
+<a href='#DA-Flow'>DA-Flow</a> \
+<a href='#MoCoDAD'>MoCoDAD</a>
 
 ## New Setting Papers
-1. [VQA-589K] **SurveillanceVQA-589K: A Benchmark for
+1. [VANE-Bench] **VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs** <a id='VANE-Bench'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
+NAACL '25 [[paper](https://arxiv.org/pdf/2406.10326)][[code](https://github.com/rohit901/VANE-Bench)][[dataset](https://huggingface.co/datasets/rohit901/VANE-Bench)][[project](https://hananshafi.github.io/vane-benchmark/)]
+
+1. [Sherlock] **Sherlock: Towards Multi-scene Video Abnormal Event Extraction and Localization via a Global-local Spatial-sensitive LLM** <a id='Sherlock'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
+WWW '25 [[paper](https://arxiv.org/pdf/2502.18863)][[OpenReview](https://openreview.net/forum?id=YHW5w2hZcZ#discussion)]
+
+1. [SurveillanceVQA-589K] **SurveillanceVQA-589K: A Benchmark for
 Comprehensive Surveillance Video-Language
-Understanding with Large Models** <a id='VQA-589K'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
-![LLM](https://img.shields.io/badge/LLM-FFA500) \
+Understanding with Large Models** <a id='SurveillanceVQA-589K'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 arXiv '25 [[paper](https://arxiv.org/pdf/2505.12589)][[annotation](https://huggingface.co/datasets/fei213/SurveillanceVQA-589K)]
 
 1. [Holmes-VAU] **Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity** <a id='Holmes-VAU'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
-![LLM](https://img.shields.io/badge/LLM-FFA500) \
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 CVPR '25 [[paper](https://arxiv.org/pdf/2412.06171)][[code & annotation](https://github.com/pipixin321/HolmesVAU)]
 
 1. [HAWK] **HAWK: Learning to Understand Open-World Video Anomalies** <a id='HAWK'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
-![LLM](https://img.shields.io/badge/LLM-FFA500) \
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 NeurIPS '24 [[paper](https://github.com/jqtangust/hawk)][[code](https://github.com/jqtangust/hawk)][[annotation](https://drive.google.com/file/d/1WCnizldWZvtS4Yg5SX7ay5C3kUQfz-Eg/view)]
 
 1. [VAR] **Toward Video Anomaly Retrieval From Video Anomaly Detection: New Benchmarks and Model**\
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
-![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF)\
+![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF) ![benchmark](https://img.shields.io/badge/benchmark-548389)\
 TIP '24 [[paper](https://ieeexplore.ieee.org/document/10471334/)][[dataset](https://github.com/Roc-Ng/VAR)]
 
 1. [AnomalyRuler] **Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models** \
@@ -72,11 +86,11 @@ TIP '24 [[paper](https://ieeexplore.ieee.org/document/10471334/)][[dataset](http
 ECCV '24 [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10568.pdf)][[code](https://github.com/Yuchen413/AnomalyRuler)]
 
 1. [UCA] **Towards Surveillance Video-and-Language Understanding: New Dataset,
-Baselines, and Challenges** <a id='UCA'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+Baselines, and Challenges** <a id='UCA'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Towards_Surveillance_Video-and-Language_Understanding_New_Dataset_Baselines_and_Challenges_CVPR_2024_paper.pdf)][[code & annotation](https://github.com/Xuange923/Surveillance-Video-Understanding)][[project](https://xuange923.github.io/Surveillance-Video-Understanding)]
 
 1. [GlanceVAD] **GlanceVAD: Exploring Glance Supervision for Label-efficient Video Anomaly Detection** <a id='GlanceVAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
-![I3D](https://img.shields.io/badge/I3D-35BF5C) \
+![I3D](https://img.shields.io/badge/I3D-35BF5C) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 ICME '25 [[paper](https://arxiv.org/pdf/2403.06154)][[code & annotation](https://github.com/pipixin321/GlanceVAD)]
 
 1. [OVVAD] **Open-Vocabulary Video Anomaly Detection** \
@@ -90,13 +104,17 @@ CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Open-
 CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Zanella_Harnessing_Large_Language_Models_for_Training-free_Video_Anomaly_Detection_CVPR_2024_paper.pdf)][[code](https://github.com/lucazanella/lavad)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Zanella_Harnessing_Large_Language_CVPR_2024_supplemental.pdf)]
 
 1. [CUVA] **Uncovering What, Why and How:  A Comprehensive Benchmark for Causation Understanding of Video Anomaly** \
-![LLM](https://img.shields.io/badge/LLM-FFA500)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Du_Uncovering_What_Why_and_How_A_Comprehensive_Benchmark_for_Causation_CVPR_2024_paper.pdf)][[code & dataset](https://github.com/fesvhtr/CUVA)][[supp](https://openaccess.thecvf.com/content/CVPR2024/html/Du_Uncovering_What_Why_and_How_A_Comprehensive_Benchmark_for_Causation_CVPR_2024_paper.html)]
+
+1. [UCF-Crime-DVS] **UCF-Crime-DVS: A Novel Event-Based Dataset for Video Anomaly Detection with Spiking Neural** <a id='UCF-Crime-DVS'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![benchmark](https://img.shields.io/badge/benchmark-548389) \
+[[paper](https://arxiv.org/pdf/2503.12905v1)][[code & dataset](https://github.com/YBQian-Roy/UCF-Crime-DVS)]
 
 1. [TDSD] **TDSD: Text-Driven Scene-Decoupled Weakly Supervised Video Anomaly Detection** <a id='TDSD'></a> \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
-![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
+![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA) ![benchmark](https://img.shields.io/badge/benchmark-548389)\
 ACM MM '24 [[paper](https://openreview.net/pdf?id=TAVtkpjS9P)][[code](https://github.com/shengyangsun/TDSD)][[OpenReview](https://openreview.net/forum?id=TAVtkpjS9P&noteId=TAVtkpjS9P)]
 
 ## Weakly-supervised VAD Papers
@@ -183,6 +201,20 @@ ACM MM '24 [[paper](https://openreview.net/pdf?id=g7zkmttvJp)][[code](https://gi
 
 1. [MPT] **Video Anomaly Detection via Progressive Learning of Multiple Proxy Tasks** <a id="Zhang-MM24"></a> \
 ACM MM '24 [[paper](https://openreview.net/pdf?id=WsNFULCsyj)][[OpenReview](https://openreview.net/forum?id=WsNFULCsyj&referrer=%5Bthe%20profile%20of%20Lei%20Zhang%5D(%2Fprofile%3Fid%3D~Lei_Zhang67))]
+
+## Skeleton-based Papers
+1. [GiCiSAD] **Graph-Jigsaw Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection** <a id='GiCiSAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+WACV '25 [[paper](https://arxiv.org/pdf/2403.12172)][[code](https://github.com/karami7899/Graph-Jigsaw-Conditioned-Diffusion-Model-for-Skeleton-based-Video-Anomaly-Detection)]
+
+2. [PoseWatch] **PoseWatch: A Transformer-based Architecture for Human-centric Video Anomaly Detection Using Spatio-temporal Pose Tokenization** <a id='PoseWatch'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+arXiv '25 [[paper](https://arxiv.org/pdf/2408.15185)][[code](https://github.com/TeCSAR-UNCC/SPARTA)]
+
+1. [DA-Flow] **DA-Flow: Dual Attention Normalizing Flow for
+Skeleton-based Video Anomaly Detection** <a id='DA-Flow'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+arXiv '24 [[paper](https://arxiv.org/pdf/2406.02976)]
+
+1. [MoCoDAD] **Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection** <a id='MoCoDAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+ICCV '23 [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Flaborea_Multimodal_Motion_Conditioned_Diffusion_Model_for_Skeleton-based_Video_Anomaly_Detection_ICCV_2023_paper.pdf)][[code](https://github.com/aleflabo/MoCoDAD)][[supp](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Flaborea_Multimodal_Motion_Conditioned_ICCV_2023_supplemental.pdf)]
 
 ## Fully-supervised VAD Papers
 1. [EBB] **Exploring Background-bias for Anomaly Detection in Surveillance Videos** \
