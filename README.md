@@ -1,32 +1,34 @@
-# Awesome Video Anomaly Detection
+# 📽️ Awesome Video Anomaly Detection
 ![GitHub License](https://img.shields.io/github/license/Junxi-Chen/Awesome-Video-Anomaly-Detection)
 ![Awesome](https://awesome.re/badge.svg)
 
-Video anomaly detection (VAD) aims to identify anomalous frames within given videos. This repository collects latest research papers, code, datasets, seminars, utilities and related resources for VAD.
+Video anomaly detection (VAD) aims to identify, understand and describe anomalous events in videos. This repository collects latest research papers, code, datasets, seminars, utilities and related resources for VAD, ***updated every friday***. Like this repo😄? ⭐ it and feel free to open an [issue](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues) for feedback.
 
-If you find this repository helpful, feel free to star🌟 or share it😀! If you spot any errors, notice omissions or have any suggestions, please reach out via GitHub [issues](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues), [pull requests](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls) or [email]((mailto:chenjunxi22@mails.ucas.ac.cn)).
+ > [!note] 
+ > Welcome to nominate VAD papers or related resources via [pull request](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls)! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
-
-## Contents
-- [Recent Updates](#recent-updates)
-- [New Setting Papers](#new-setting-papers)
-- [Weakly-supervised VAD Papers](#weakly-supervised-vad-papers)
+## 📌 Contents
+- [🔥 Recent Updates](#-recent-updates)
+- [🧪 New Setting Papers](#-new-setting-papers)
+- [📃 Weakly-supervised VAD Papers](#-weakly-supervised-vad-papers)
   - [Prompt Involved Papers](#prompt-involved-papers)
-- [Semi-supervised VAD Papers](#semi-supervised-vad-papers)
-- [Skeleton-based Papers](#skeleton-based-papers)
-- [Fully-supervised VAD Papers](#fully-supervised-vad-papers)
-- [Surveys](#surveys)
-- [Benchmarks](#benchmarks)
-- [Datasets](#datasets)
+- [📃 Semi-supervised VAD Papers](#-semi-supervised-vad-papers)
+- [📃 Skeleton-based Papers](#-skeleton-based-papers)
+- [📃 Fully-supervised VAD Papers](#-fully-supervised-vad-papers)
+- [📑 Surveys](#-surveys)
+- [🏗️ Benchmarks](#️-benchmarks)
+- [💽 Datasets](#-datasets)
   - [Links](#links)
   - [Statistics](#statistics)
-- [Seminars](#seminars)
-- [Evaluation Metrics](#evaluation-metrics)
-- [Utilities](#utilities)
-- [Related Repositories](#related-repositories)
+- [🧑🏻‍🏫 Seminars](#-seminars)
+- [👷🏻‍♂️ Evaluation Metrics](#️-evaluation-metrics)
+- [🛠️ Utilities](#️-utilities)
+- [🔗 Related Repositories](#-related-repositories)
+- [🙌🏻 Acknowledgements](#-acknowledgements)
+- [🔖 Citation](#-citation)
 
 
-## Recent Updates
+## 🔥 Recent Updates
 <!---
  &nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) 
 -->
@@ -53,7 +55,7 @@ Papers: \
 <a href='#DA-Flow'>DA-Flow</a> \
 <a href='#MoCoDAD'>MoCoDAD</a>
 
-## New Setting Papers
+## 🧪 New Setting Papers
 1. [VANE-Bench] **VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs** <a id='VANE-Bench'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
 ![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 NAACL '25 [[paper](https://arxiv.org/pdf/2406.10326)][[code](https://github.com/rohit901/VANE-Bench)][[dataset](https://huggingface.co/datasets/rohit901/VANE-Bench)][[project](https://hananshafi.github.io/vane-benchmark/)]
@@ -117,7 +119,7 @@ CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Du_Uncov
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA) ![benchmark](https://img.shields.io/badge/benchmark-548389)\
 ACM MM '24 [[paper](https://openreview.net/pdf?id=TAVtkpjS9P)][[code](https://github.com/shengyangsun/TDSD)][[OpenReview](https://openreview.net/forum?id=TAVtkpjS9P&noteId=TAVtkpjS9P)]
 
-## Weakly-supervised VAD Papers
+## 📃 Weakly-supervised VAD Papers
 1. [CDL] **Cross-Domain Learning for Video Anomaly Detection with Limited Supervision** \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)\
@@ -162,7 +164,7 @@ CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Pro
 CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Text_Prompt_with_Normality_Guidance_for_Weakly_Supervised_Video_Anomaly_CVPR_2024_paper.pdf)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Yang_Text_Prompt_with_CVPR_2024_supplemental.pdf)]
 
 
-## Semi-supervised VAD Papers
+## 📃 Semi-supervised VAD Papers
 
 1. [LPGB] **Local Patterns Generalize Better for Novel Anomalies** \
 ICLR '25 [[paper](https://openreview.net/pdf?id=4ua4wyAQLm)][[code](https://github.com/AllenYLJiang/Local-Patterns-Generalize-Better/)][[OpenReview](https://openreview.net/forum?id=4ua4wyAQLm)]
@@ -202,7 +204,7 @@ ACM MM '24 [[paper](https://openreview.net/pdf?id=g7zkmttvJp)][[code](https://gi
 1. [MPT] **Video Anomaly Detection via Progressive Learning of Multiple Proxy Tasks** <a id="Zhang-MM24"></a> \
 ACM MM '24 [[paper](https://openreview.net/pdf?id=WsNFULCsyj)][[OpenReview](https://openreview.net/forum?id=WsNFULCsyj&referrer=%5Bthe%20profile%20of%20Lei%20Zhang%5D(%2Fprofile%3Fid%3D~Lei_Zhang67))]
 
-## Skeleton-based Papers
+## 📃 Skeleton-based Papers
 1. [GiCiSAD] **Graph-Jigsaw Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection** <a id='GiCiSAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
 WACV '25 [[paper](https://arxiv.org/pdf/2403.12172)][[code](https://github.com/karami7899/Graph-Jigsaw-Conditioned-Diffusion-Model-for-Skeleton-based-Video-Anomaly-Detection)]
 
@@ -216,14 +218,14 @@ arXiv '24 [[paper](https://arxiv.org/pdf/2406.02976)]
 1. [MoCoDAD] **Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection** <a id='MoCoDAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
 ICCV '23 [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Flaborea_Multimodal_Motion_Conditioned_Diffusion_Model_for_Skeleton-based_Video_Anomaly_Detection_ICCV_2023_paper.pdf)][[code](https://github.com/aleflabo/MoCoDAD)][[supp](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Flaborea_Multimodal_Motion_Conditioned_ICCV_2023_supplemental.pdf)]
 
-## Fully-supervised VAD Papers
+## 📃 Fully-supervised VAD Papers
 1. [EBB] **Exploring Background-bias for Anomaly Detection in Surveillance Videos** \
 ACM MM 19' [[paper](https://dl.acm.org/doi/abs/10.1145/3343031.3350998)][[annotation](https://github.com/xuzero/UCFCrime_BoundingBox_Annotation)]
 
 1. [ALVS] **ANOMALY LOCALITY IN VIDEO SURVEILLANCE** \
 arXiv 19' [[paper](https://arxiv.org/pdf/1901.10364)][[project](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=30)][[annotation](https://drive.google.com/drive/folders/1Hu2oke7acBqcKKyUpv5NBmQ2fDiYn87c)]
 
-## Surveys
+## 📑 Surveys
 1. [MSAD] **Advancing Video Anomaly Detection: A Concise Review and a New Dataset** <a id="review-and-dataset"></a> \
 NeurIPS '24 [[paper](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf)][[project](https://msad-dataset.github.io)]
 
@@ -243,7 +245,7 @@ T-PAMI '24 [[paper](https://github.com/KimMeen/Awesome-GNN4TS)][[repo](https://g
 T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 
-## Benchmarks
+## 🏗️ Benchmarks
 <table>
   <tr>
     <th></th>
@@ -539,7 +541,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 </table>
 
 
-## Datasets
+## 💽 Datasets
 ![image](pics/annotation.png)
 ### Links
 | Dataset | Download Links | Features | Additional Annotations | Publication |
@@ -778,11 +780,11 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     ‡: NWPU Campus was initially proposed as a semi-supervised VAD dataset, and <a href='#TDSD'>TDSD</a> later introduced its <a href='https://github.com/shengyangsun/TDSD/tree/master/data/NWPU_split'>weakly supervised split</a>.<br>
 </div>
 
-## Seminars
+## 🧑🏻‍🏫 Seminars
 1. Recent advances in anomaly detection. \
   CVPR '23 Tutorial [[link](https://www.youtube.com/watch?v=dXxrzWeybBo)]
 
-## Evaluation Metrics
+## 👷🏻‍♂️ Evaluation Metrics
 <details>
     <summary>1. AUC</summary>
     Area Under Curve (AUC) of <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc">Receiver-Operating Characteristic curve</a> (ROC) is a primary evaluation metric for VAD, measuring  classification performance across all thresholds. The ROC curve plots the <a href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall#recall_or_true_positive_rate"> True Positive Rate</a> (TPR) on the y-axis against the <a href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall#false_positive_rate"> False Positive Rate</a> (FPR) on the x-axis at various thresholds. AUC is computed as the integral of the ROC curve, ranging from 0 to 1, where 0.5 indicates performance approximating random guessing, and 1 denotes perfect discrimination. A higher AUC value indicates superior performance. AUC is a commonly used evaluation metric for the <a href="https://svip-lab.github.io/dataset/campus_dataset.html"> ShanghaiTech Campus</a> and <a href="https://www.crcv.ucf.edu/projects/real-world/"> UCF-Crime</a> datasets .
@@ -809,11 +811,11 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 </details>
 
 
-## Utilities
+## 🛠️ Utilities
 [Video & Audio Feature Extraction]: [video_features](https://github.com/v-iashin/video_features) allows you to extract features from video clips, supporting a variety of modalities and extractors, i.e., S3D, R(2+1)d RGB,  I3D-Net RGB + Flow, VGGish, CLIP.
 
 
-## Related Repositories
+## 🔗 Related Repositories
 [uws4vad-wiki](https://github.com/zuble/uws4vad/wiki/Meth): a comprehensive benchmark table for VAD datasets and methods, frequently updated. <a id='uws4vad'></a> &nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) 
 
 [Video-Anomaly-Detection](https://github.com/vt-le/Video-Anomaly-Detection): a curated list of video anomaly detection papers. <a id='VAD-table'></a> &nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) 
@@ -825,3 +827,21 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 [awesome anomaly detection](https://github.com/hoya012/awesome-anomaly-detection): a curated list of awesome anomaly detection resources, including time-series anomaly detection, video-level anomaly detection, image-level anomaly detection, last updated in November 2021.
 
 [anomaly detection resources](https://github.com/yzhao062/anomaly-detection-resources?tab=readme-ov-file): a comprehensive resource for anomaly detection, featuring a wide range of papers on various domains, e.g., image, time-series, financial, and social media anomaly detection. It contains only a subset of materials specifically related to video anomaly detection.
+
+## 🙌🏻 Acknowledgements
+Special thanks to [@Zuble](https://github.com/zuble) for his valuable help and contributions to this project.
+
+## 🔖 Citation
+
+If you find this repository useful, please consider citing it:
+
+```bibtex
+@misc{awesome-vad,
+    author = {Junxi Chen},
+    title = {Awesome Video Anomaly Detection.},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection}},
+    year = {2024},
+}
+```
