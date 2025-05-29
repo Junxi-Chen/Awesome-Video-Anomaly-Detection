@@ -67,7 +67,7 @@ If the nominated paper introduces a new dataset or reports benchmark results, pl
 
 ---
 
-## 🙌 Thank You
+## 🙌🏻 Thank You
 
 We deeply appreciate your contributions to this community-driven project.  
 If you have any questions or suggestions, feel free to open an issue or reach out via pull request comments.
