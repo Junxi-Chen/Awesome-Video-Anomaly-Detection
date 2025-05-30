@@ -2,7 +2,7 @@
 ![GitHub License](https://img.shields.io/github/license/Junxi-Chen/Awesome-Video-Anomaly-Detection)
 ![Awesome](https://awesome.re/badge.svg)
 
-Video anomaly detection (VAD) aims to identify, understand and describe anomalous events in videos. This repository collects latest research papers, code, datasets, seminars, utilities and related resources for VAD, ***updated every friday***. Like this repo😄? ⭐ it and feel free to open an [issue](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues) for feedback.
+Video anomaly detection (VAD) aims to identify, understand and describe anomalous events in videos. This repository collects the latest research papers, code, datasets, seminars, utilities and related resources for VAD, ***updated every Friday***. Like this repo😄? ⭐ it and feel free to open an [issue](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/issues) for feedback.
 
  > [!note] 
  > Welcome to nominate VAD papers or related resources via [pull request](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls)! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
