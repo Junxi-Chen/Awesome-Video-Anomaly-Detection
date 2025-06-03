@@ -130,11 +130,6 @@ ECCV '24 [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04459
 ![with-Audio](https://img.shields.io/badge/with--Audio-00B2FF)\
 CVPR '24 Workshop [[paper](https://openaccess.thecvf.com/content/CVPR2024W/MULA/papers/Ghadiya_Cross-Modal_Fusion_and_Attention_Mechanism_for_Weakly_Supervised_Video_Anomaly_CVPRW_2024_paper.pdf)] 
 
-1. [STPrompt] **Weakly Supervised Video Anomaly Detection and Localization with Spatio-Temporal Prompts** <a id='STPrompt'></a> \
-![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
-![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
-ACM MM '24 [[paper](https://arxiv.org/pdf/2408.05905)][[OpenReview](https://openreview.net/forum?id=2es1ojI14x&referrer=%5Bthe%20profile%20of%20Peng%20Wu%5D(%2Fprofile%3Fid%3D~Peng_Wu2))]
-
 1. [ECU] **Exploiting Completeness and Uncertainty of Pseudo Labels for Weakly Supervised Video Anomaly Detection** <a id='ECU'></a>\
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)\
 CVPR '23 [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Exploiting_Completeness_and_Uncertainty_of_Pseudo_Labels_for_Weakly_Supervised_CVPR_2023_paper.pdf)][[code](https://github.com/ArielZc/CU-Net)][[supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Zhang_Exploiting_Completeness_and_CVPR_2023_supplemental.pdf)]
@@ -147,6 +142,11 @@ CVPR '23 [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Look
 CVPR 19' [[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Graph_Convolutional_Label_Noise_Cleaner_Train_a_Plug-And-Play_Action_Classifier_CVPR_2019_paper.pdf)][[code](https://github.com/jx-zhong-for-academic-purpose/GCN-Anomaly-Detection)]
 
 ### Prompt Involved Papers
+1. [STPrompt] **Weakly Supervised Video Anomaly Detection and Localization with Spatio-Temporal Prompts** <a id='STPrompt'></a> \
+![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
+![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
+ACM MM '24 [[paper](https://arxiv.org/pdf/2408.05905)][[OpenReview](https://openreview.net/forum?id=2es1ojI14x&referrer=%5Bthe%20profile%20of%20Peng%20Wu%5D(%2Fprofile%3Fid%3D~Peng_Wu2))]
+
 1. [Vadclip] **Vadclip: Adapting vision-language models for weakly supervised video anomaly detection** <a id='Vadclip'></a> \
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
@@ -163,7 +163,11 @@ CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Pro
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
 CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Text_Prompt_with_Normality_Guidance_for_Weakly_Supervised_Video_Anomaly_CVPR_2024_paper.pdf)][[supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Yang_Text_Prompt_with_CVPR_2024_supplemental.pdf)]
 
-
+1. [PEL4VAD] **Learning Prompt-Enhanced Context features for Weakly-Supervised Video Anomaly Detection** \
+   ![I3D](https://img.shields.io/badge/I3D-35BF5C)
+![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA) \
+  TIP '24 [[paper](https://ieeexplore.ieee.org/document/10667004/)][[code](https://github.com/yujiangpu20/PEL4VAD)]
+  
 ## 📃 Semi-supervised VAD Papers
 
 1. [LPGB] **Local Patterns Generalize Better for Novel Anomalies** \
