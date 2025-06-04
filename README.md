@@ -38,10 +38,14 @@ Last Update: May, 2025
 - ACM MM '24
 
 Related Repositories: \
-<a href='#uws4vad'>uws4vad</a> 🔥🔥🔥 \
+<a href='#uws4vad'>uws4vad-wiki</a> 🔥🔥🔥 \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 Papers: \
+<a href='#SVTA'>SVTA</a> \
+<a href='#VAU-R1'>VAU-R1</a> \
+<a href='#VERA'>VERA</a> \
+<a href='#Fed-WSVAD'>Fed-WSVAD</a> \
 <a href='#VANE-Bench'>VANE-Bench</a> \
 <a href='#Sherlock'>Sherlock</a> \
 <a href='#SurveillanceVQA-589K'>SurveillanceVQA-589K</a> \
@@ -56,7 +60,16 @@ Papers: \
 <a href='#MoCoDAD'>MoCoDAD</a>
 
 ## 🧪 New Setting Papers
-1. [VANE-Bench] **VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs** <a id='VANE-Bench'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+1. [SVTA] **Towards Scalable Video Anomaly Retrieval: A Synthetic Video-Text Benchmark** <a id='SVTA'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
+arXiv '25 [[paper](https://arxiv.org/pdf/2506.01466)][[project](https://svta-mm.github.io/SVTA.github.io/)]
+
+1. [VAU-R1] **Advancing Video Anomaly Understanding
+via Reinforcement Fine-Tuning** <a id='VAU-R1'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
+arXiv '25 [[paper](https://arxiv.org/pdf/2505.23504)][[code](https://github.com/GVCLab/VAU-R1)]
+
+2. [VANE-Bench] **VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs** <a id='VANE-Bench'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
 ![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 NAACL '25 [[paper](https://arxiv.org/pdf/2406.10326)][[code](https://github.com/rohit901/VANE-Bench)][[dataset](https://huggingface.co/datasets/rohit901/VANE-Bench)][[project](https://hananshafi.github.io/vane-benchmark/)]
 
@@ -69,6 +82,10 @@ Comprehensive Surveillance Video-Language
 Understanding with Large Models** <a id='SurveillanceVQA-589K'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
 ![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
 arXiv '25 [[paper](https://arxiv.org/pdf/2505.12589)][[annotation](https://huggingface.co/datasets/fei213/SurveillanceVQA-589K)]
+
+1. [VERA] **VERA: Explainable Video Anomaly Detection via Verbalized Learning of Vision-Language Models**  <a id='VERA'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+![LLM](https://img.shields.io/badge/LLM-FFA500) \
+CVPR '25 [[paper](https://arxiv.org/pdf/2412.01095)][[code](https://github.com/vera-framework/VERA)][[project](https://vera-framework.github.io)]
 
 1. [Holmes-VAU] **Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity** <a id='Holmes-VAU'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
 ![LLM](https://img.shields.io/badge/LLM-FFA500) ![benchmark](https://img.shields.io/badge/benchmark-548389) \
@@ -142,6 +159,11 @@ CVPR '23 [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Look
 CVPR 19' [[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Graph_Convolutional_Label_Noise_Cleaner_Train_a_Plug-And-Play_Action_Classifier_CVPR_2019_paper.pdf)][[code](https://github.com/jx-zhong-for-academic-purpose/GCN-Anomaly-Detection)]
 
 ### Prompt Involved Papers
+1. [Fed-WSVAD] **Federated Weakly Supervised video Anomaly Detection with Multimodal Prompt** <a id='Fed-WSVAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
+![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
+  AAAI '25 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/35398/37553)][[code](https://github.com/wbfwonderful/Fed-WSVAD)]
+
 1. [STPrompt] **Weakly Supervised Video Anomaly Detection and Localization with Spatio-Temporal Prompts** <a id='STPrompt'></a> \
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
