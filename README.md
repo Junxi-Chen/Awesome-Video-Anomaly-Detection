@@ -47,7 +47,7 @@ Papers: \
 <a href='#LEC-VAD'>LEC-VAD</a> \
 <a href='#TAO'>TAO</a> \
 <a href='#SFN-VAD'>SFN-VAD</a> \
-<a href='#pi-VAD'>$\pi$-VAD</a> \
+<a href='#pi-VAD'>π-VAD</a> \
 <a href='#SVTA'>SVTA</a> \
 <a href='#VAU-R1'>VAU-R1</a> \
 <a href='#VERA'>VERA</a> \
@@ -67,18 +67,18 @@ Papers: \
 
 ## 🧪 New Setting Papers
 1. [LEC-VAD] **Learning Event Completeness for Weakly Supervised Video Anomaly Detection** <a id='LEC-VAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
-    ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)
+    ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
     ICML '25 [[paper](https://arxiv.org/pdf/2506.13095)]
 
-2. [TAO] **Track Any Anomalous Object: A Granular Video Anomaly Detection Pipeline** <a id='TAO'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+2. [TAO] **Track Any Anomalous Object: A Granular Video Anomaly Detection Pipeline** <a id='TAO'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
     CVPR '25 [[paper](https://arxiv.org/pdf/2506.05175)][[project](https://tao-25.github.io/)]
 
 3. [SFN-VAD] **MemoryOut: Learning Principal Features via Multimodal Sparse Filtering Network for Semi-supervised Video Anomaly Detection** <a id='SFN-VAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
-    ![LLM](https://img.shields.io/badge/LLM-FFA500)
+    ![LLM](https://img.shields.io/badge/LLM-FFA500) \
     arXiv '25[[paper](https://arxiv.org/pdf/2506.02535)][[project](https://qzfm.github.io/sfn_vad_project_page/)]
 
-4. [$\pi$-VAD] **Just Dance with $\pi$! A Poly-modal Inductor for Weakly-supervised Video Anomaly Detection** <a id='pi-VAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
-    ![LLM](https://img.shields.io/badge/LLM-FFA500) ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)
+4. [π-VAD] **Just Dance with π! A Poly-modal Inductor for Weakly-supervised Video Anomaly Detection** <a id='pi-VAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+    ![LLM](https://img.shields.io/badge/LLM-FFA500) ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA) \
     CVPR '25[[paper](https://arxiv.org/pdf/2505.13123)][[code](https://github.com/snehashismajhi/PI-VAD)]
 
 5. [SVTA] **Towards Scalable Video Anomaly Retrieval: A Synthetic Video-Text Benchmark** <a id='SVTA'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
