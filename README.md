@@ -159,7 +159,7 @@ CVPR '23 [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Look
 CVPR 19' [[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Graph_Convolutional_Label_Noise_Cleaner_Train_a_Plug-And-Play_Action_Classifier_CVPR_2019_paper.pdf)][[code](https://github.com/jx-zhong-for-academic-purpose/GCN-Anomaly-Detection)]
 
 ### Prompt Involved Papers
-1. [$\pi$-VAD] **Just Dance with $\pi$! A Poly-modal Inductor for Weakly-supervised Video Anomaly Detection** <a id='pi-VAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+1. [&pi;-VAD] **Just Dance with $\pi$! A Poly-modal Inductor for Weakly-supervised Video Anomaly Detection** <a id='pi-VAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
 ![I3D](https://img.shields.io/badge/I3D-35BF5C) ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA) \
 CVPR '25 [[paper](https://arxiv.org/pdf/2505.13123)]
 
