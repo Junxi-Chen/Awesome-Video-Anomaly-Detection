@@ -306,7 +306,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
   </tr>
   <tr>
     <td rowspan="8">Semi-supervised</td>
-    <td rowspan="2">LANP</td>
+    <td rowspan="2"><a href="#LANP">LANP</a></td>
     <td rowspan="2">ECCV '24</td>
     <td>I3D</td>
     <td>88.32</td>
@@ -344,7 +344,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">SSAE</td>
+    <td rowspan="1"><a href="#SSAE">SSAE</a></td>
     <td rowspan="1">T-PAMI '24</td>
     <td>-</td>
     <td>80.5</td>
@@ -364,7 +364,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">AED-MAE</td>
+    <td rowspan="1"><a href="#AED-MAE">AED-MAE</a></td>
     <td rowspan="1">CVPR '24</td>
     <td>-</td>
     <td>79.1</td>
@@ -384,7 +384,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">MSTL</td>
+    <td rowspan="1"><a href="#MSTL">MSTL</a></td>
     <td rowspan="1">CVPR '24</td>
     <td>I3D</td>
     <td>87.5</td>
@@ -404,7 +404,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">MULDE</td>
+    <td rowspan="1"><a href="#MULDE">MULDE</a></td>
     <td rowspan="1">CVPR '24</td>
     <td>CLIP+Hiera</td>
     <td>81.3</td>
@@ -424,7 +424,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">MGEnet</td>
+    <td rowspan="1"><a href="#MGEnet">MGEnet</a></td>
     <td rowspan="1">MM '24</td>
     <td>Video Swin</td>
     <td>86.9</td>
@@ -444,7 +444,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">MPT</td>
+    <td rowspan="1"><a href="#MPT">MPT</a></td>
     <td rowspan="1">MM '24</td>
     <td>-</td>
     <td>88.6</td>
@@ -465,7 +465,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
   </tr>
   <tr>
     <td rowspan="6">Weakly-supervised</td>
-    <td rowspan="1">HLGAtt</td>
+    <td rowspan="1"><a href="#HLGAtt">HLGAtt</a></td>
     <td rowspan="1">CVPR '24 Workshop</td>
     <td>I3D</td>
     <td>-</td>
@@ -485,7 +485,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">STPrompt</td>
+    <td rowspan="1"><a href="#STPrompt">STPrompt</a></td>
     <td rowspan="1">MM '24</td>
     <td>CLIP</td>
     <td>97.81</td>
@@ -505,7 +505,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">ECU</td>
+    <td rowspan="1"><a href="#ECU">ECU</a></td>
     <td rowspan="1">CVPR '23</td>
     <td>I3D</td>
     <td>-</td>
@@ -525,7 +525,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">CoMo</td>
+    <td rowspan="1"><a href="#CoMo">CoMo</a></td>
     <td rowspan="1">CVPR '23</td>
     <td>I3D</td>
     <td>97.6</td>
@@ -545,7 +545,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">Vadclip</td>
+    <td rowspan="1"><a href="#Vadclip">Vadclip</a></td>
     <td rowspan="1">AAAI '24</td>
     <td>CLIP</td>
     <td>-</td>
@@ -565,7 +565,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="1">PE-MIL</td>
+    <td rowspan="1"><a href="#PE-MIL">PE-MIL</a></td>
     <td rowspan="1">CVPR '24</td>
     <td>I3D</td>
     <td>98.35</td>

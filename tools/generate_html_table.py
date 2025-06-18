@@ -43,7 +43,7 @@ def yaml_to_html_table(yaml_file):
                     supervision_written = True
 
                 if not method_written:
-                    html += f'    <td rowspan="{method_rowspan}">{method}</td>\n'
+                    html += f'    <td rowspan="{method_rowspan}"><a href="#{method}">{method}</a></td>\n'
                     html += f'    <td rowspan="{method_rowspan}">{publication}</td>\n'
                     method_written = True
 
