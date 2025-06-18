@@ -282,6 +282,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 
 ## 🏗️ Benchmarks
+![image](pics/benchmark.png)
 <table>
   <tr>
     <th>Supervision</th>
