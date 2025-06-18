@@ -284,295 +284,305 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 ## 🏗️ Benchmarks
 <table>
   <tr>
-    <th></th>
-     <th>Method</th>
-     <th>Publication</th>
-     <th>Visual Features</th>
-     <th>STC (AUC)</th>
-     <th>UCF (AUC)</th>
-     <th>XDV (AP)</th>
-     <th>Ave (AUC)</th>
-     <th>Cor (AUC)</th>
-     <th>UBnormal (AUC)</th>
-     <th>Ped2 (AUC)</th>
-     <th>Campus (AUC)</th>
-     <th>NWPU (AUC)</th>
-     <th>NPDI (AUC)</th>
-     <th>TAD (AUC)</th>
-     <th>Audio Features</th>
-     <th>Text Prompt</th>
-     <th>LLM Involved</th>
-     <th>Data Augumentation</th>
+    <th>Supervision</th>
+    <th>Method</th>
+    <th>Publication</th>
+    <th>Visual Features</th>
+    <th>STC (AUC)</th>
+    <th>UCF (AUC)</th>
+    <th>XDV (AP)</th>
+    <th>Ave (AUC)</th>
+    <th>Cor (AUC)</th>
+    <th>UBnormal (AUC)</th>
+    <th>Ped2 (AUC)</th>
+    <th>Campus (AUC)</th>
+    <th>NWPU (AUC)</th>
+    <th>NPDI (AUC)</th>
+    <th>TAD (AUC)</th>
+    <th>Audio Features</th>
+    <th>Text Prompt</th>
+    <th>LLM Involved</th>
+    <th>Data Augumentation</th>
   </tr>
   <tr>
     <td rowspan="8">Semi-supervised</td>
-    <td rowspan="2"><a href="#LANP">LANP</a></td>
+    <td rowspan="2">LANP</td>
     <td rowspan="2">ECCV '24</td>
     <td>I3D</td>
     <td>88.32</td>
     <td>80.02</td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
-    <td rowspan="2"> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
     <td>ResNext</td>
     <td>86.46</td>
     <td>76.64</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href="#SSAE">SSAE</a></td>
-    <td>T-PAMI '24</td>
-    <td> - </td>
+    <td rowspan="1">SSAE</td>
+    <td rowspan="1">T-PAMI '24</td>
+    <td>-</td>
     <td>80.5</td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
     <td>90.2</td>
     <td>75.8</td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
     <td>75.6</td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href="#AED-MAE">AED-MAE</a></td>
-    <td>CVPR '24</td>
-    <td> - </td>
+    <td rowspan="1">AED-MAE</td>
+    <td rowspan="1">CVPR '24</td>
+    <td>-</td>
     <td>79.1</td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
     <td>91.3</td>
-    <td> - </td>
+    <td>-</td>
     <td>58.5</td>
     <td>95.4</td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href="#Zhang-CVPR24">MSTL</a></td>
-    <td>CVPR '24</td>
+    <td rowspan="1">MSTL</td>
+    <td rowspan="1">CVPR '24</td>
     <td>I3D</td>
-    <td> 87.5 </td>
-    <td> 80.6 </td>
-    <td> - </td>
-    <td> 94.3 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> 70.1 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>87.5</td>
+    <td>80.6</td>
+    <td>-</td>
+    <td>94.3</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>70.1</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#MULDE'>MULDE</a></td>
-    <td>CVPR '24</td>
+    <td rowspan="1">MULDE</td>
+    <td rowspan="1">CVPR '24</td>
     <td>CLIP+Hiera</td>
     <td>81.3</td>
     <td>78.5</td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
     <td>72.8</td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#MGENet'>MGEnet</a></td>
-    <td>MM '24</td>
+    <td rowspan="1">MGEnet</td>
+    <td rowspan="1">MM '24</td>
     <td>Video Swin</td>
     <td>86.9</td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> 74.3 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>74.3</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#Zhang-MM'24>MPT</a></td>
-    <td>MM '24</td>
-    <td> - </td>
+    <td rowspan="1">MPT</td>
+    <td rowspan="1">MM '24</td>
+    <td>-</td>
     <td>88.6</td>
     <td>83.2</td>
-    <td> - </td>
-    <td> 94.5 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>94.5</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <th colspan="19"></th>
-  </tr>
-  <tr>
-    <td rowspan="8">Weakly-supervised</td>
-    <td><a href='#HLGAtt'>HLGAtt</a></td>
-    <td>CVPR '24 Workshop</td>
+    <td rowspan="6">Weakly-supervised</td>
+    <td rowspan="1">HLGAtt</td>
+    <td rowspan="1">CVPR '24 Workshop</td>
     <td>I3D</td>
-    <td> - </td>
-    <td> - </td>
-    <td> 86.34 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> 99.45 </td>
-    <td> - </td>
-    <td> VGGish </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>86.34</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>99.45</td>
+    <td>-</td>
+    <td>VGGish</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#STPrompt'>STPrompt</a></td>
-    <td>MM '24</td>
+    <td rowspan="1">STPrompt</td>
+    <td rowspan="1">MM '24</td>
     <td>CLIP</td>
-    <td> 97.81 </td>
-    <td> 88.08 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> 63.98 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> &#10004; </td>
-    <td> - </td>
-    <td> - </td>
+    <td>97.81</td>
+    <td>88.08</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>63.98</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>✓</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#ECU'>ECU</a></td>
-    <td>CVPR '23</td>
+    <td rowspan="1">ECU</td>
+    <td rowspan="1">CVPR '23</td>
     <td>I3D</td>
-    <td> - </td>
-    <td> 86.22 </td>
-    <td> 81.43 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> 91.66 </td>
-    <td> VGGish </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>86.22</td>
+    <td>81.43</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>91.66</td>
+    <td>VGGish</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#CoMo'>CoMo</a></td>
-    <td>CVPR '23</td>
+    <td rowspan="1">CoMo</td>
+    <td rowspan="1">CVPR '23</td>
     <td>I3D</td>
     <td>97.6</td>
     <td>86.1</td>
     <td>81.3</td>
     <td>89.8</td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#Vadclip'>Vadclip</a></td>
-    <td>AAAI '24</td>
+    <td rowspan="1">Vadclip</td>
+    <td rowspan="1">AAAI '24</td>
     <td>CLIP</td>
-    <td> - </td>
-    <td> 88.02 </td>
-    <td> 84.51 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> &#10004; </td>
-    <td> - </td>
-    <td> - </td>
+    <td>-</td>
+    <td>88.02</td>
+    <td>84.51</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>✓</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><a href='#PE-MIL'>PE-MIL</a></td>
-    <td>CVPR '24</td>
+    <td rowspan="1">PE-MIL</td>
+    <td rowspan="1">CVPR '24</td>
     <td>I3D</td>
-    <td> 98.35 </td>
-    <td> 86.83 </td>
-    <td> 88.21 </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> - </td>
-    <td> VGGish </td>
-    <td> &#10004; </td>
-    <td> - </td>
-    <td> - </td>
+    <td>98.35</td>
+    <td>86.83</td>
+    <td>88.21</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>VGGish</td>
+    <td>✓</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 </table>
 

@@ -1,0 +1,266 @@
+- Supervision: Semi-supervised
+  Method: LANP
+  Publication: ECCV '24
+  Visual Features: I3D
+  STC (AUC): 88.32
+  UCF (AUC): 80.02
+  XDV (AP): "-"
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Semi-supervised
+  Method: LANP
+  Publication: ECCV '24
+  Visual Features: ResNext
+  STC (AUC): 86.46
+  UCF (AUC): 76.64
+  XDV (AP): "-"
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Semi-supervised
+  Method: SSAE
+  Publication: T-PAMI '24
+  Visual Features: "-"
+  STC (AUC): 80.5
+  UCF (AUC): "-"
+  XDV (AP): "-"
+  Ave (AUC): 90.2
+  Cor (AUC): 75.8
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): 75.6
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Semi-supervised
+  Method: AED-MAE
+  Publication: CVPR '24
+  Visual Features: "-"
+  STC (AUC): 79.1
+  UCF (AUC): "-"
+  XDV (AP): "-"
+  Ave (AUC): 91.3
+  Cor (AUC): "-"
+  UBnormal (AUC): 58.5
+  Ped2 (AUC): 95.4
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Semi-supervised
+  Method: MSTL
+  Publication: CVPR '24
+  Visual Features: I3D
+  STC (AUC): 87.5
+  UCF (AUC): 80.6
+  XDV (AP): "-"
+  Ave (AUC): 94.3
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): 70.1
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Semi-supervised
+  Method: MULDE
+  Publication: CVPR '24
+  Visual Features: CLIP+Hiera
+  STC (AUC): 81.3
+  UCF (AUC): 78.5
+  XDV (AP): "-"
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): 72.8
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Semi-supervised
+  Method: MGEnet
+  Publication: MM '24
+  Visual Features: Video Swin
+  STC (AUC): 86.9
+  UCF (AUC): "-"
+  XDV (AP): "-"
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): 74.3
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Semi-supervised
+  Method: MPT
+  Publication: MM '24
+  Visual Features: "-"
+  STC (AUC): 88.6
+  UCF (AUC): 83.2
+  XDV (AP): "-"
+  Ave (AUC): 94.5
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Weakly-supervised
+  Method: HLGAtt
+  Publication: CVPR '24 Workshop
+  Visual Features: I3D
+  STC (AUC): "-"
+  UCF (AUC): "-"
+  XDV (AP): 86.34
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): 99.45
+  TAD (AUC): "-"
+  Audio Features: VGGish
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Weakly-supervised
+  Method: STPrompt
+  Publication: MM '24
+  Visual Features: CLIP
+  STC (AUC): 97.81
+  UCF (AUC): 88.08
+  XDV (AP): "-"
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): 63.98
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: ✓
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Weakly-supervised
+  Method: ECU
+  Publication: CVPR '23
+  Visual Features: I3D
+  STC (AUC): "-"
+  UCF (AUC): 86.22
+  XDV (AP): 81.43
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): 91.66
+  Audio Features: VGGish
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Weakly-supervised
+  Method: CoMo
+  Publication: CVPR '23
+  Visual Features: I3D
+  STC (AUC): 97.6
+  UCF (AUC): 86.1
+  XDV (AP): 81.3
+  Ave (AUC): 89.8
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: "-"
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Weakly-supervised
+  Method: Vadclip
+  Publication: AAAI '24
+  Visual Features: CLIP
+  STC (AUC): "-"
+  UCF (AUC): 88.02
+  XDV (AP): 84.51
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-"
+  Audio Features: "-"
+  Text Prompt: ✓
+  LLM Involved: "-"
+  Data Augumentation: "-"
+- Supervision: Weakly-supervised
+  Method: PE-MIL
+  Publication: CVPR '24
+  Visual Features: I3D
+  STC (AUC): 98.35
+  UCF (AUC): 86.83
+  XDV (AP): 88.21
+  Ave (AUC): "-"
+  Cor (AUC): "-"
+  UBnormal (AUC): "-"
+  Ped2 (AUC): "-"
+  Campus (AUC): "-"
+  NWPU (AUC): "-"
+  NPDI (AUC): "-"
+  TAD (AUC): "-" 
+  Audio Features: VGGish
+  Text Prompt: ✓
+  LLM Involved: "-"
+  Data Augumentation: "-"
