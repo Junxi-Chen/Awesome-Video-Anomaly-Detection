@@ -602,6 +602,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 | [MSAD](https://msad-dataset.github.io) | [Request Form](https://forms.microsoft.com/pages/responsepage.aspx?id=XHJ941yrJEaa5fBTPkhkN0_bcDHlPvFAiLdm3BQe86NURVI5RlRWODhYWVZYSzNCSlBROThBTEQzOC4u&route=shorturl) | [Swin & I3D](https://drive.google.com/drive/folders/1mxFGCcAuEecN0c7MHD12wD4pO2Ej5kLe) | - | [NeurIPS '24](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf) |
 | [TAD](https://github.com/ktr-hubrt/WSAL?tab=readme-ov-file) | [GoogleDrive](https://drive.google.com/drive/folders/1cofMJGglil4vddrq_unuy7EEhthMYtuq) | - | - | [TIP '21](https://ieeexplore.ieee.org/abstract/document/9408419/) |
 | NPDI | [Contact Email](mailto:sandra@ic.unicamp.br) | - | - | [CVIU 13'](https://www.sciencedirect.com/science/article/abs/pii/S1077314212001737) |
+| Street Scene | [Page](https://zenodo.org/records/10870472) | - | - | [WACV '20](https://openaccess.thecvf.com/content_WACV_2020/papers/Ramachandra_Street_Scene_A_new_dataset_and_evaluation_protocol_for_video_WACV_2020_paper.pdf) |
 | Pornography-2k | [Contact Email](mailto:anderson.rocha@gmail.com) | - | - | [FSI 16'](https://www.sciencedirect.com/science/article/abs/pii/S0379073816304169) |
 
 ### Statistics
