@@ -8,24 +8,26 @@ Video anomaly detection (VAD) aims to identify, understand and describe anomalou
  > Welcome to nominate VAD papers or related resources via [pull request](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls)! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 ## 📌 Contents
-- [🔥 Recent Updates](#-recent-updates)
-- [🧪 New Setting Papers](#-new-setting-papers)
-- [📃 Weakly-supervised VAD Papers](#-weakly-supervised-vad-papers)
-  - [Prompt Involved Papers](#prompt-involved-papers)
-- [📃 Semi-supervised VAD Papers](#-semi-supervised-vad-papers)
-- [📃 Skeleton-based Papers](#-skeleton-based-papers)
-- [📃 Fully-supervised VAD Papers](#-fully-supervised-vad-papers)
-- [📑 Surveys](#-surveys)
-- [🏗️ Benchmarks](#️-benchmarks)
-- [💽 Datasets](#-datasets)
-  - [Links](#links)
-  - [Statistics](#statistics)
-- [🧑🏻‍🏫 Seminars](#-seminars)
-- [👷🏻‍♂️ Evaluation Metrics](#️-evaluation-metrics)
-- [🛠️ Utilities](#️-utilities)
-- [🔗 Related Repositories](#-related-repositories)
-- [🙌🏻 Acknowledgements](#-acknowledgements)
-- [🔖 Citation](#-citation)
+- [📽️ Awesome Video Anomaly Detection](#️-awesome-video-anomaly-detection)
+  - [📌 Contents](#-contents)
+  - [🔥 Recent Updates](#-recent-updates)
+  - [🧪 New Setting Papers](#-new-setting-papers)
+  - [📃 Weakly-supervised VAD Papers](#-weakly-supervised-vad-papers)
+    - [Prompt Involved Papers](#prompt-involved-papers)
+  - [📃 Semi-supervised VAD Papers](#-semi-supervised-vad-papers)
+  - [📃 Skeleton-based Papers](#-skeleton-based-papers)
+  - [📃 Fully-supervised VAD Papers](#-fully-supervised-vad-papers)
+  - [📑 Surveys](#-surveys)
+  - [🏗️ Benchmarks](#️-benchmarks)
+  - [💽 Datasets](#-datasets)
+    - [Links](#links)
+    - [Statistics](#statistics)
+  - [🧑🏻‍🏫 Seminars](#-seminars)
+  - [👷🏻‍♂️ Evaluation Metrics](#️-evaluation-metrics)
+  - [🛠️ Utilities](#️-utilities)
+  - [🔗 Related Repositories](#-related-repositories)
+  - [🙌🏻 Acknowledgements](#-acknowledgements)
+  - [🔖 Citation](#-citation)
 
 
 ## 🔥 Recent Updates
@@ -199,6 +201,9 @@ CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Tex
 TIP '24 [[paper](https://ieeexplore.ieee.org/document/10667004/)][[code](https://github.com/yujiangpu20/PEL4VAD)]
 
 ## 📃 Semi-supervised VAD Papers
+1. [MA-PDM] **Video Anomaly Detection with Motion and Appearance Guided Patch Diffusion Model** <a id='MA-PDM'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+AAAI '25 [[paper](https://arxiv.org/pdf/2412.09026)][[code](https://github.com/henrryzh1/MA-PDM/)]
+
 1. [SFN-VAD] **MemoryOut: Learning Principal Features via Multimodal Sparse Filtering Network for Semi-supervised Video Anomaly Detection** <a id='SFN-VAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
 arXiv '25 [[paper](https://arxiv.org/pdf/2506.02535)][[project](https://qzfm.github.io/sfn_vad_project_page/)]
 
