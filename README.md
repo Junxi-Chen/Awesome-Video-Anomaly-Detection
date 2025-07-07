@@ -882,8 +882,8 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 [anomaly detection resources](https://github.com/yzhao062/anomaly-detection-resources?tab=readme-ov-file): a comprehensive resource for anomaly detection, featuring a wide range of papers on various domains, e.g., image, time-series, financial, and social media anomaly detection. It contains only a subset of materials specifically related to video anomaly detection.
 
 ## 🙌🏻 Acknowledgements
-Special thanks to [@Zuble](https://github.com/zuble) for his valuable help and contributions to this project. <br>
-Thanks to [@inaomIIsfarell](https://github.com/inaomIIsfarell) for his nomination of VAD papers. 
+Special thanks to [[@Zuble](https://github.com/zuble)] for his valuable help and contributions to this project. <br>
+Thanks to [[@inaomIIsfarell](https://github.com/inaomIIsfarell)] | [[sky836](https://github.com/sky836)] for their nomination of VAD papers. 
 
 ## 🔖 Citation
 
