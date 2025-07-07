@@ -8,26 +8,25 @@ Video anomaly detection (VAD) aims to identify, understand and describe anomalou
  > Welcome to nominate VAD papers or related resources via [pull request](https://github.com/Junxi-Chen/Awesome-Video-Anomaly-Detection/pulls)! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 ## 📌 Contents
-- [📽️ Awesome Video Anomaly Detection](#️-awesome-video-anomaly-detection)
-  - [📌 Contents](#-contents)
-  - [🔥 Recent Updates](#-recent-updates)
-  - [🧪 New Setting Papers](#-new-setting-papers)
-  - [📃 Weakly-supervised VAD Papers](#-weakly-supervised-vad-papers)
-    - [Prompt Involved Papers](#prompt-involved-papers)
-  - [📃 Semi-supervised VAD Papers](#-semi-supervised-vad-papers)
-  - [📃 Skeleton-based Papers](#-skeleton-based-papers)
-  - [📃 Fully-supervised VAD Papers](#-fully-supervised-vad-papers)
-  - [📑 Surveys](#-surveys)
-  - [🏗️ Benchmarks](#️-benchmarks)
-  - [💽 Datasets](#-datasets)
-    - [Links](#links)
-    - [Statistics](#statistics)
-  - [🧑🏻‍🏫 Seminars](#-seminars)
-  - [👷🏻‍♂️ Evaluation Metrics](#️-evaluation-metrics)
-  - [🛠️ Utilities](#️-utilities)
-  - [🔗 Related Repositories](#-related-repositories)
-  - [🙌🏻 Acknowledgements](#-acknowledgements)
-  - [🔖 Citation](#-citation)
+- [📌 Contents](#-contents)
+- [🔥 Recent Updates](#-recent-updates)
+- [🧪 New Setting Papers](#-new-setting-papers)
+- [📃 Weakly-supervised VAD Papers](#-weakly-supervised-vad-papers)
+  - [Prompt Involved Papers](#prompt-involved-papers)
+- [📃 Semi-supervised VAD Papers](#-semi-supervised-vad-papers)
+- [📃 Skeleton-based Papers](#-skeleton-based-papers)
+- [📃 Fully-supervised VAD Papers](#-fully-supervised-vad-papers)
+- [📑 Surveys](#-surveys)
+- [🏗️ Benchmarks](#️-benchmarks)
+- [💽 Datasets](#-datasets)
+  - [Links](#links)
+  - [Statistics](#statistics)
+- [🧑🏻‍🏫 Seminars](#-seminars)
+- [👷🏻‍♂️ Evaluation Metrics](#️-evaluation-metrics)
+- [🛠️ Utilities](#️-utilities)
+- [🔗 Related Repositories](#-related-repositories)
+- [🙌🏻 Acknowledgements](#-acknowledgements)
+- [🔖 Citation](#-citation)
 
 
 ## 🔥 Recent Updates
@@ -45,6 +44,7 @@ Related Repositories: \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 Papers: \
+<a href='#MA-PDM'>MA-PDM</a> \
 <a href='#TAO'>TAO</a> \
 <a href='#LEC-VAD'>LEC-VAD</a> \
 <a href='#pi-VAD'>&pi;-VAD</a> \
