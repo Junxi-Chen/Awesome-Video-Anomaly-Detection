@@ -478,7 +478,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="6">Weakly-supervised</td>
+    <td rowspan="7">Weakly-supervised</td>
     <td rowspan="1"><a href="#HLGAtt">HLGAtt</a></td>
     <td rowspan="1">CVPR '24 Workshop</td>
     <td>I3D</td>
@@ -595,6 +595,26 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
     <td>VGGish</td>
     <td>✓</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="1"><a href="#ADRM">ADRM</a></td>
+    <td rowspan="1">TII '25</td>
+    <td>MAEv2</td>
+    <td>97.91/97.86(Fed)</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>70.91/76.51(Fed)</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
     <td>-</td>
     <td>-</td>
   </tr>
