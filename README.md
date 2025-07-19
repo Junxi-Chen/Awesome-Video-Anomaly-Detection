@@ -178,6 +178,7 @@ CVPR '25 [[paper](https://arxiv.org/pdf/2505.13123)]
 ICML '25 [[paper](https://arxiv.org/pdf/2506.13095)]
   
 1. [Fed-WSVAD] **Federated Weakly Supervised video Anomaly Detection with Multimodal Prompt** <a id='Fed-WSVAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![Fed‑VAD](https://img.shields.io/badge/Fed--VAD-E64B35)
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
 AAAI '25 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/35398/37553)][[code](https://github.com/wbfwonderful/Fed-WSVAD)]
