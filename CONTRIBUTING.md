@@ -52,6 +52,10 @@ Feel free to add the appropriate badges to highlight the paper's properties:
 - ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 - ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)
 - ![Hiera-L](https://img.shields.io/badge/Hiera--L-25D366)
+- ![Fed‑VAD](https://img.shields.io/badge/Fed--VAD-E64B35)
+- ![MAEv2](https://img.shields.io/badge/MAEv2-4DBBD5)
+- ![Edge‑Jetson](https://img.shields.io/badge/Edge--Jetson-76B900?logo=nvidia&logoColor=white)  
+
 
 ---
 
