@@ -44,6 +44,7 @@ Related Repositories: \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 Papers: \
+<a href='#ADRM'>ADRM</a> \
 <a href='#MA-PDM'>MA-PDM</a> \
 <a href='#TAO'>TAO</a> \
 <a href='#LEC-VAD'>LEC-VAD</a> \
@@ -59,6 +60,7 @@ Papers: \
 <a href='#Holmes-VAU'>Holmes-VAU</a> \
 <a href='#GlanceVAD'>GlanceVAD</a> \
 <a href='#UCF-Crime-DVS'>UCF-Crime-DVS</a> 
+
 
 ## 🧪 New Setting Papers
 1. [TAO] **Track Any Anomalous Object: A Granular Video Anomaly Detection Pipeline** <a id='TAO'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
@@ -139,6 +141,12 @@ CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Du_Uncov
 ACM MM '24 [[paper](https://openreview.net/pdf?id=TAVtkpjS9P)][[code](https://github.com/shengyangsun/TDSD)][[OpenReview](https://openreview.net/forum?id=TAVtkpjS9P&noteId=TAVtkpjS9P)]
 
 ## 📃 Weakly-supervised VAD Papers
+1. [ADRM] **Dual‑Detector Reoptimization for Federated Weakly Supervised Video Anomaly Detection via Adaptive Dynamic Recursive Mapping** <a id='ADRM'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+   ![Fed‑VAD](https://img.shields.io/badge/Fed--VAD-E64B35)
+   ![MAEv2](https://img.shields.io/badge/MAEv2-4DBBD5)
+   ![Edge‑Jetson](https://img.shields.io/badge/Edge--Jetson-76B900?logo=nvidia&logoColor=white)\
+   TII '25  [[paper](https://ieeexplore.ieee.org/document/11036561)] [[code](https://github.com/rekkles2/Fed_WSVAD)] [[supp](https://github.com/rekkles2/Fed_WSVAD/blob/main/Figure/Appendix.pdf)]
+
 1. [CDL] **Cross-Domain Learning for Video Anomaly Detection with Limited Supervision** \
 ![I3D](https://img.shields.io/badge/I3D-35BF5C)
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)\
@@ -170,6 +178,7 @@ CVPR '25 [[paper](https://arxiv.org/pdf/2505.13123)]
 ICML '25 [[paper](https://arxiv.org/pdf/2506.13095)]
   
 1. [Fed-WSVAD] **Federated Weakly Supervised video Anomaly Detection with Multimodal Prompt** <a id='Fed-WSVAD'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+![Fed‑VAD](https://img.shields.io/badge/Fed--VAD-E64B35)
 ![CLIP-V](https://img.shields.io/badge/CLIP--V-6d4aff)
 ![CLIP-T](https://img.shields.io/badge/CLIP--T-C3B9FA)\
 AAAI '25 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/35398/37553)][[code](https://github.com/wbfwonderful/Fed-WSVAD)]
@@ -470,7 +479,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
   </tr>
   <tr>
-    <td rowspan="6">Weakly-supervised</td>
+    <td rowspan="7">Weakly-supervised</td>
     <td rowspan="1"><a href="#HLGAtt">HLGAtt</a></td>
     <td rowspan="1">CVPR '24 Workshop</td>
     <td>I3D</td>
@@ -587,6 +596,26 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
     <td>-</td>
     <td>VGGish</td>
     <td>✓</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="1"><a href="#ADRM">ADRM</a></td>
+    <td rowspan="1">TII '25</td>
+    <td>MAEv2</td>
+    <td>97.91/97.86(Fed)</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>70.91/76.51(Fed)</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
     <td>-</td>
     <td>-</td>
   </tr>
