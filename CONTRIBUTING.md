@@ -56,7 +56,6 @@ Feel free to add the appropriate badges to highlight the paper's properties:
 - ![MAEv2](https://img.shields.io/badge/MAEv2-4DBBD5)
 - ![Edge‑Jetson](https://img.shields.io/badge/Edge--Jetson-76B900?logo=nvidia&logoColor=white)  
 
-
 ---
 
 ### Step 2: Update the "Recent Updates" Section
