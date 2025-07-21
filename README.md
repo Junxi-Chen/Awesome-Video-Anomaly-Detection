@@ -912,7 +912,7 @@ T-PAMI '23 [[paper](https://ieeexplore.ieee.org/abstract/document/10239277)]
 
 ## 🙌🏻 Acknowledgements
 Special thanks to [[@Zuble](https://github.com/zuble)] for his valuable help and contributions to this project. <br>
-Thanks to [[@inaomIIsfarell](https://github.com/inaomIIsfarell)] | [[sky836](https://github.com/sky836)] for their nomination of VAD papers. 
+Thanks to [[@inaomIIsfarell](https://github.com/inaomIIsfarell)] | [[sky836](https://github.com/sky836)] | [[rekkles2](https://github.com/rekkles2)] for their nomination of VAD papers. 
 
 ## 🔖 Citation
 
