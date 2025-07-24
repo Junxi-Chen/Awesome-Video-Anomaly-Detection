@@ -58,6 +58,11 @@ Papers: \
 <a href='#VERA'>VERA</a> \
 
 ## 🧪 New Setting Papers
+<!--
+1. [] **Aligning Effective Tokens with Video Anomaly in Large Language Models** <a id=''></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
+ICCV '25 [[paper]()]
+-->
+
 1. [TAO] **Track Any Anomalous Object: A Granular Video Anomaly Detection Pipeline** <a id='TAO'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA) \
 CVPR '25 [[paper](https://arxiv.org/pdf/2506.05175)][[project](https://tao-25.github.io/)][[code](https://github.com/yu2hi13/TAO)]
 
@@ -136,6 +141,11 @@ CVPR '24 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Du_Uncov
 ACM MM '24 [[paper](https://openreview.net/pdf?id=TAVtkpjS9P)][[code](https://github.com/shengyangsun/TDSD)][[OpenReview](https://openreview.net/forum?id=TAVtkpjS9P&noteId=TAVtkpjS9P)]
 
 ## 📃 Weakly-supervised VAD Papers
+<!--
+1. [] **Mixture of Experts Guided by Gaussian Splatters Matters: A new Approach to Weakly-Supervised Video Anomaly Detection** <a id='ADRM'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
+ICCV '25 [[paper]()]
+-->
+
 1. [ADRM] **Dual‑Detector Reoptimization for Federated Weakly Supervised Video Anomaly Detection via Adaptive Dynamic Recursive Mapping** <a id='ADRM'></a>&nbsp;&nbsp;&nbsp;![New](https://img.shields.io/badge/New⭐-417FFA)\
    ![Fed‑VAD](https://img.shields.io/badge/Fed--VAD-E64B35)
    ![MAEv2](https://img.shields.io/badge/MAEv2-4DBBD5)
