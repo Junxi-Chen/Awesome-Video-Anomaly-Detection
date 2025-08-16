@@ -45,6 +45,8 @@ Related Repositories: \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 Papers: \
+<a href='#mms-vad'>MMS-VAD-Survey</a>
+<a href='#ADSM'>ADSM</a>
 <a href='#ADSM'>ADSM</a> \
 <a href='#SeeKer'>SeeKer</a> \
 <a href='#ADRM'>ADRM</a> \
@@ -55,7 +57,7 @@ Papers: \
 <a href='#SFN-VAD'>SFN-VAD</a> \
 <a href='#SVTA'>SVTA</a> \
 <a href='#VAU-R1'>VAU-R1</a> \
-<a href='#VERA'>VERA</a> \
+<a href='#VERA'>VERA</a> 
 
 ## 🧪 New Setting Papers
 <!--
@@ -288,8 +290,8 @@ ACM MM 19' [[paper](https://dl.acm.org/doi/abs/10.1145/3343031.3350998)][[annota
 arXiv 19' [[paper](https://arxiv.org/pdf/1901.10364)][[project](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=30)][[annotation](https://drive.google.com/drive/folders/1Hu2oke7acBqcKKyUpv5NBmQ2fDiYn87c)]
 
 ## 📑 Surveys
-1. [MM-WSVAD] **A survey on multi-modal and weakly supervised approaches for robust anomaly detection in video data** \
-Information Fusion '25 [[paper](https://www.sciencedirect.com/science/article/pii/S1566253525004610)]
+1. [MMS-VAD-Survey] **A Survey on Multi-Modal and Weakly Supervised Approaches for Robust Anomaly Detection in Video Data**  <a id="mms-vad"></a> \
+Information Fusion '2025 [[Paper](https://www.sciencedirect.com/science/article/pii/S1566253525004610)]
 
 1. [MSAD] **Advancing Video Anomaly Detection: A Concise Review and a New Dataset** <a id="review-and-dataset"></a> \
 NeurIPS '24 [[paper](https://papers.nips.cc/paper_files/paper/2024/file/a3c5af1f56fc73eef1ba0f442739f5ca-Paper-Datasets_and_Benchmarks_Track.pdf)][[project](https://msad-dataset.github.io)]
