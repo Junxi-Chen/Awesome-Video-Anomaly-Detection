@@ -47,7 +47,6 @@ Related Repositories: \
 Papers: \
 <a href='#mms-vad'>MMS-VAD-Survey</a> \
 <a href='#ADSM'>ADSM</a> \
-<a href='#ADSM'>ADSM</a> \
 <a href='#SeeKer'>SeeKer</a> \
 <a href='#ADRM'>ADRM</a> \
 <a href='#MA-PDM'>MA-PDM</a> \
