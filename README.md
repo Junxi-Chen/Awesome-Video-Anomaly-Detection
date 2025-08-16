@@ -45,8 +45,8 @@ Related Repositories: \
 <a href='#VAD-table'>Video-Anomaly-Detection</a>
 
 Papers: \
-<a href='#mms-vad'>MMS-VAD-Survey</a>
-<a href='#ADSM'>ADSM</a>
+<a href='#mms-vad'>MMS-VAD-Survey</a> \
+<a href='#ADSM'>ADSM</a> \
 <a href='#ADSM'>ADSM</a> \
 <a href='#SeeKer'>SeeKer</a> \
 <a href='#ADRM'>ADRM</a> \
